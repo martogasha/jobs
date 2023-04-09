@@ -49,7 +49,7 @@ Purchase:
     <div class="container">
         <div class="hs_header_logo_left hidden-xs">
             <div class="hs_logo_wrapper">
-                <a href="index.html"><img src="images/header/logo.png" class="img-responsive" alt="logo" title="Logo"/></a>
+                <a href="index.html"><img src="images/header/jo.jpg" class="img-responsive" alt="logo" title="Logo"/></a>
             </div>
         </div>
         <div class="hs_header_logo_right">
@@ -135,7 +135,7 @@ Purchase:
                         <div class="row">
                             <div class="col-xs-6 col-sm-6">
                                 <div class="hs_logo">
-                                    <a href="index.html"><img src="images/content/mobile_logo.png" alt="Logo" title="Logo"></a>
+                                    <a href="index.html"><img src="images/header/jo.jpg" alt="Logo" title="Logo"></a>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-6">
