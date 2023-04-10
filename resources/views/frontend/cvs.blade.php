@@ -49,7 +49,7 @@ Purchase:
     <div class="container">
         <div class="hs_header_logo_left hidden-xs">
             <div class="hs_logo_wrapper">
-                <a href="index.html"><img src="images/header/jo.jpg" class="img-responsive" alt="logo" title="Logo"/></a>
+                <a href="index.html"><img src="images/header/lll.jpg" class="img-responsive" alt="logo" title="Logo"/></a>
             </div>
         </div>
         <div class="hs_header_logo_right">
