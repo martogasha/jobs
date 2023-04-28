@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\FrontendController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,9 +19,32 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+//Auth
+Route::post('Login', [AuthController::class, 'Login']);
+Route::post('editProfile', [AuthController::class, 'editProfile']);
+Route::get('Register', [AuthController::class, 'Register']);
+//backend
+Route::get('admin', [AdminController::class, 'admin']);
+Route::get('dashboard', [AdminController::class, 'dashboard']);
+Route::get('adminJobs', [AdminController::class, 'adminJobs']);
+Route::get('adminMarket', [AdminController::class, 'adminMarket']);
+Route::get('postJob', [AdminController::class, 'postJob']);
+Route::post('pJob', [AdminController::class, 'pJob']);
+Route::get('postNews', [AdminController::class, 'postNews']);
+Route::get('postProduct', [AdminController::class, 'postProduct']);
+Route::post('pProduct', [AdminController::class, 'pProduct']);
+Route::get('adminNews', [AdminController::class, 'adminNews']);
+//frontend
 Route::get('jobs', [FrontendController::class, 'jobs']);
-Route::get('jobDetail', [FrontendController::class, 'jobDetail']);
+Route::get('jobDetail/{id}', [FrontendController::class, 'jobDetail']);
 Route::get('cvs', [FrontendController::class, 'cvs']);
 Route::get('shop', [FrontendController::class, 'shop']);
+Route::get('shopDetail/{id}', [FrontendController::class, 'shopDetail']);
 Route::get('news', [FrontendController::class, 'news']);
+Route::get('newsDetail', [FrontendController::class, 'newsDetail']);
 
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
