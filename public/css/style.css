@@ -884,7 +884,7 @@ ul{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background: url(../images/header/slide.jpg) 50% 0 repeat-y;
+  background: url(hire.jpg) 50% 0 repeat-y;
   position: relative;
   min-height:850px;
 }
@@ -894,7 +894,7 @@ width:100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background: url(../images/header/slide.jpg);
+  background: url(hire.jpg);
   position: relative;
   min-height:850px;
 }
@@ -904,7 +904,7 @@ width:100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background: url(../images/header/slide.jpg);
+  background: url(hire.jpg);
   position: relative;
   min-height:850px;
 }
