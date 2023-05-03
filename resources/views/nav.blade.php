@@ -16,7 +16,7 @@
                 </div>
                 <div class="hs_header_add_icon_cont">
                     <h5>Reach Us</h5>
-                    <p>Kikuyu</p>
+                    <p>Nairobi, Kenya</p>
                 </div>
             </div>
             <div class="hs_header_add_wrapper hidden-xs hidden-sm">
@@ -25,7 +25,7 @@
                 </div>
                 <div class="hs_header_add_icon_cont">
                     <h5>Talk to Us</h5>
-                    <p>0795390602</p>
+                    <p>0714466088</p>
                 </div>
             </div>
             <div class="modal fade" id="myModal" role="dialog">

@@ -261,12 +261,13 @@ Purchase:
                                 <div class="hs_service_main_box_wrapper">
                                     <div class="hs_service_icon_main_wrapper">
                                         <div class="hs_service_icon_wrapper">
-                                            <i class="flaticon-marry-me"></i>
+                                            <i class="flaticon-pregnancy"></i>
                                             <div class="btc_step_overlay"></div>
                                         </div>
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>CV Review</h2>
+                                        <p></p>
                                         <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
@@ -274,9 +275,7 @@ Purchase:
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 portfolio-wrapper III_column" data-groups='["all","business"]'>
                                 <div class="hs_service_main_box_wrapper">
                                     <div class="hs_service_icon_main_wrapper">
-                                        <div class="hs_service_icon_wrapper">
-                                            <i class="flaticon-baby-with-diaper"></i>
-                                            <div class="btc_step_overlay"></div>
+                                        <div class="hs_service_icon_wrapper" style="background: url(images/header/cw.jpg)">
                                         </div>
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
@@ -288,9 +287,7 @@ Purchase:
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 portfolio-wrapper III_column" data-groups='["all","business"]'>
                                 <div class="hs_service_main_box_wrapper">
                                     <div class="hs_service_icon_main_wrapper">
-                                        <div class="hs_service_icon_wrapper">
-                                            <i class="flaticon-success"></i>
-                                            <div class="btc_step_overlay"></div>
+                                        <div class="hs_service_icon_wrapper" style="background: url(images/header/cl.jpg)">
                                         </div>
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
@@ -303,9 +300,7 @@ Purchase:
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 portfolio-wrapper III_column" data-groups='["all", "website"]'>
                                 <div class="hs_service_main_box_wrapper">
                                     <div class="hs_service_icon_main_wrapper">
-                                        <div class="hs_service_icon_wrapper">
-                                            <i class="flaticon-islamic-temple"></i>
-                                            <div class="btc_step_overlay"></div>
+                                        <div class="hs_service_icon_wrapper" style="background: url(images/header/p.jpg)">
                                         </div>
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
@@ -318,9 +313,7 @@ Purchase:
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 portfolio-wrapper III_column" data-groups='["all", "website"]'>
                                 <div class="hs_service_main_box_wrapper">
                                     <div class="hs_service_icon_main_wrapper">
-                                        <div class="hs_service_icon_wrapper">
-                                            <i class="flaticon-pregnancy"></i>
-                                            <div class="btc_step_overlay"></div>
+                                        <div class="hs_service_icon_wrapper" style="background: url(images/header/k.jpg)">
                                         </div>
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
@@ -333,9 +326,7 @@ Purchase:
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 portfolio-wrapper III_column" data-groups='["all", "website"]'>
                                 <div class="hs_service_main_box_wrapper">
                                     <div class="hs_service_icon_main_wrapper">
-                                        <div class="hs_service_icon_wrapper">
-                                            <i class="flaticon-engagement-ring"></i>
-                                            <div class="btc_step_overlay"></div>
+                                        <div class="hs_service_icon_wrapper" style="background: url(images/header/t.jpg)">
                                         </div>
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
@@ -348,9 +339,7 @@ Purchase:
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 portfolio-wrapper III_column" data-groups='["all","website"]'>
                                 <div class="hs_service_main_box_wrapper">
                                     <div class="hs_service_icon_main_wrapper">
-                                        <div class="hs_service_icon_wrapper">
-                                            <i class="flaticon-animal"></i>
-                                            <div class="btc_step_overlay"></div>
+                                        <div class="hs_service_icon_wrapper" style="background: url(images/header/g.jpg)">
                                         </div>
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
@@ -363,9 +352,7 @@ Purchase:
                             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 portfolio-wrapper III_column" data-groups='["all", "website"]'>
                                 <div class="hs_service_main_box_wrapper">
                                     <div class="hs_service_icon_main_wrapper">
-                                        <div class="hs_service_icon_wrapper">
-                                            <i class="flaticon-giftboxes"></i>
-                                            <div class="btc_step_overlay"></div>
+                                        <div class="hs_service_icon_wrapper" style="background: url(images/header/n.jpg)">
                                         </div>
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
