@@ -204,7 +204,7 @@ Purchase:
                 </div>
             </div>
             <div class="item">
-                <div class=" carousel-captions caption-2">
+                <div class=" carousel-captions caption-2" style="background: url(images/header/cb.jpg)">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
@@ -257,7 +257,7 @@ Purchase:
                 </div>
             </div>
             <div class="item">
-                <div class="carousel-captions caption-3">
+                <div class="carousel-captions caption-3" style="background: url(images/header/mp.jpg)">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
