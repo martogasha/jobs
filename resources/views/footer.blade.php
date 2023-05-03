@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="hs_footer_logo_wrapper">
-                    <img src="images/header/ll.jpg" alt="footer_logo" class="img-responsive" />
+                    <img src="images/header/lo.jpg" alt="footer_logo" class="img-responsive" />
                     <p>Visit us on our social media platforms</p>
                     <ul>
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>

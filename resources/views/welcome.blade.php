@@ -138,203 +138,182 @@ Purchase:
 <!-- hs Navigation End -->
 <!-- hs Slider Start -->
 <div class="slider-area">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <div class="carousel-captions caption-1" style="background: url(images/header/hires.jpg)">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                                <div class="content">
-                                    <h2 data-animation="animated zoomInDown">FIND A <span>JOB</span></h2>
-                                    <p data-animation="animated bounceInUp"></p>
-                                    <div class="hs_effect_btn">
-                                        <ul>
-                                            <li data-animation="animated flipInX"><a href="{{url('jobs')}}" class="hs_btn_hover">Read more</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-sm hidden-xs">
-                                <div class="content_tabs">
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="hs_slider_right_tabs_wrapper" data-animation="animated bounceInLeft hs_slider_tab_one">
+    <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+        <!-- Overlay -->
 
-                                                <div class="hs_slider_tabs_icon_cont_wrapper">
-                                                    <ul>
-                                                        <li><a href="{{url('jobs')}}" class="hs_tabs_btn">KENYA</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="hs_slider_right_tabs_wrapper hs_slider_right_tabs_wrapper2" data-animation="animated bounceInRight hs_slider_tab_tow">
-                                                <div class="hs_slider_tabs_icon_cont_wrapper">
-                                                    <ul>
-                                                        <li><a href="{{url('jobs')}}" class="hs_tabs_btn">QATAR</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="hs_slider_right_tabs_wrapper hs_slider_right_tabs_wrapper2" data-animation="animated bounceInLeft hs_slider_tab_three">
-                                                <div class="hs_slider_tabs_icon_cont_wrapper">
-                                                    <ul>
-                                                        <li><a href="{{url('jobs')}}" class="hs_tabs_btn">AUSTRALIA</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="hs_slider_right_tabs_wrapper hs_slider_right_tabs_wrapper2" data-animation="animated bounceInRight hs_slider_tab_four">
-                                                <div class="hs_slider_tabs_icon_cont_wrapper">
-                                                    <ul>
-                                                        <li><a href="{{url('jobs')}}" class="hs_tabs_btn">DUBAI</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#bs-carousel" data-slide-to="1"></li>
+            <li data-target="#bs-carousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item slides active">
+                <div class="slide-1">
+                    <div class="overlay"></div>
+                </div>
+                <div class="hero" style="text-align: left">
+                    <hgroup>
+                        <h1>Find a Job</h1>
+                    </hgroup>
+                    <a href="{{url('jobs')}}"><button class="btn btn-hero btn-lg" role="button">Read More</button></a>
                 </div>
             </div>
-            <div class="item">
-                <div class=" carousel-captions caption-2" style="background: url(images/header/cb.jpg)">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                                <div class="content">
-                                    <h2 data-animation="animated zoomInDown">cv <span>services</span></h2>
-                                    <p data-animation="animated bounceInUp"></p>
-                                    <div class="hs_effect_btn">
-                                        <ul>
-                                            <li data-animation="animated flipInX"><a href="{{url('cvs')}}" class="hs_btn_hover">Read more</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-sm hidden-xs">
-                                <div class="content_tabs">
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="hs_slider_right_tabs_wrapper" data-animation="animated bounceInLeft hs_slider_tab_one">
-                                                <div class="hs_slider_tabs_icon_cont_wrapper">
-                                                    <ul>
-                                                        <li><a href="{{url('cvs')}}" class="hs_tabs_btn">Cv Writting</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="hs_slider_right_tabs_wrapper hs_slider_right_tabs_wrapper2" data-animation="animated bounceInRight hs_slider_tab_tow">
-                                                <div class="hs_slider_tabs_icon_cont_wrapper">
-                                                    <ul>
-                                                        <li><a href="{{url('cvs')}}" class="hs_tabs_btn">Cv Review</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="hs_slider_right_tabs_wrapper hs_slider_right_tabs_wrapper2" data-animation="animated bounceInLeft hs_slider_tab_three">
-                                                <div class="hs_slider_tabs_icon_cont_wrapper">
-                                                    <ul>
-                                                        <li><a href="{{url('cvs')}}" class="hs_tabs_btn">Coverletter</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="item slides">
+                <div class="slide-2">
+                    <div class="overlay"></div>
+                </div>
+                <div class="hero" style="text-align: left">
+                    <hgroup>
+                        <h1>Cv Services</h1>
+                    </hgroup>
+                    <a href="{{url('jobs')}}"><button class="btn btn-hero btn-lg" role="button">Read More</button></a>
                 </div>
             </div>
-            <div class="item">
-                <div class="carousel-captions caption-3" style="background: url(images/header/mp.jpg)">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                                <div class="content">
-                                    <h2 data-animation="animated zoomInDown">Our <span>Marketplace</span></h2>
-                                    <p data-animation="animated bounceInUp"></p>
-                                    <div class="hs_effect_btn">
-                                        <ul>
-                                            <li data-animation="animated flipInX"><a href="#" class="hs_btn_hover">Explore more</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-sm hidden-xs">
-                                <div class="content_tabs">
-                                    <div class="row">
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="hs_slider_right_tabs_wrapper hs_slider_right_tabs_wrapper2" data-animation="animated bounceInLeft hs_slider_tab_three">
-                                                <div class="hs_slider_tabs_icon_wrapper">
-                                                    <i class="flaticon-avatar"></i>
-                                                </div>
-                                                <div class="hs_slider_tabs_icon_cont_wrapper">
-                                                    <ul>
-                                                        <li><a href="#" class="hs_tabs_btn">Newest</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="hs_slider_right_tabs_wrapper" data-animation="animated bounceInLeft hs_slider_tab_one">
-                                                <div class="hs_slider_tabs_icon_wrapper">
-                                                    <i class="flaticon-horse-head"></i>
-                                                </div>
-                                                <div class="hs_slider_tabs_icon_cont_wrapper">
-                                                    <ul>
-                                                        <li><a href="#" class="hs_tabs_btn">Most Viewed</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="hs_slider_right_tabs_wrapper hs_slider_right_tabs_wrapper2" data-animation="animated bounceInRight hs_slider_tab_tow">
-                                                <div class="hs_slider_tabs_icon_wrapper">
-                                                    <i class="flaticon-home"></i>
-                                                </div>
-                                                <div class="hs_slider_tabs_icon_cont_wrapper">
-                                                    <ul>
-                                                        <li><a href="#" class="hs_tabs_btn">Popular</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="item slides">
+                <div class="slide-3">
+                    <div class="overlay"></div>
                 </div>
-            </div>
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"><span class="number"></span></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1" class=""><span class="number"></span></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2" class=""><span class="number"></span></li>
-            </ol>
-            <div class="carousel-nevigation">
-                <a class="prev" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <i class="fa fa-angle-left"></i>
-                    <span>PR<br>EV</span>
-                </a>
-                <a class="next" href="#carousel-example-generic" role="button" data-slide="next">
-                    <span>NE<br>XT</span>
-                    <i class="fa fa-angle-right"></i>
-                </a>
+                <div class="hero" style="text-align: left">
+                    <hgroup>
+                        <h1>Our Marketplace</h1>
+                    </hgroup>
+                    <a href="{{url('jobs')}}"><button class="btn btn-hero btn-lg" role="button">Explore More</button></a>
+                </div>
             </div>
         </div>
     </div>
+<style>
+    /*
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
+*/
+
+    /********************************/
+    /*       Fade Bs-carousel       */
+    /********************************/
+    .fade-carousel {
+        position: relative;
+        height: 100vh;
+    }
+    .fade-carousel .carousel-inner .item {
+        height: 100vh;
+    }
+    .fade-carousel .carousel-indicators > li {
+        margin: 0 2px;
+        background-color: #f39c12;
+        border-color: #f39c12;
+        opacity: .7;
+    }
+    .fade-carousel .carousel-indicators > li.active {
+        width: 10px;
+        height: 10px;
+        opacity: 1;
+    }
+
+    /********************************/
+    /*          Hero Headers        */
+    /********************************/
+    .hero {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 3;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+        -webkit-transform: translate3d(-50%,-50%,0);
+        -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+        -o-transform: translate3d(-50%,-50%,0);
+        transform: translate3d(-50%,-50%,0);
+    }
+    .hero h1 {
+        font-size: 4em;
+        font-weight: bold;
+        color: ghostwhite;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fade-carousel .carousel-inner .item .hero {
+        opacity: 0;
+        -webkit-transition: 2s all ease-in-out .1s;
+        -moz-transition: 2s all ease-in-out .1s;
+        -ms-transition: 2s all ease-in-out .1s;
+        -o-transition: 2s all ease-in-out .1s;
+        transition: 2s all ease-in-out .1s;
+    }
+    .fade-carousel .carousel-inner .item.active .hero {
+        opacity: 1;
+        -webkit-transition: 2s all ease-in-out .1s;
+        -moz-transition: 2s all ease-in-out .1s;
+        -ms-transition: 2s all ease-in-out .1s;
+        -o-transition: 2s all ease-in-out .1s;
+        transition: 2s all ease-in-out .1s;
+    }
+
+    /********************************/
+    /*            Overlay           */
+    /********************************/
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        background-color: #080d15;
+        opacity: .7;
+    }
+
+    /********************************/
+    /*          Custom Buttons      */
+    /********************************/
+    .btn.btn-lg {padding: 10px 40px;}
+    .btn.btn-hero,
+    .btn.btn-hero:hover,
+    .btn.btn-hero:focus {
+        color: #f5f5f5;
+        background-color: #1abc9c;
+        border-color: #1abc9c;
+        outline: none;
+        margin: 20px auto;
+    }
+
+    /********************************/
+    /*       Slides backgrounds     */
+    /********************************/
+    .fade-carousel .slides .slide-1,
+    .fade-carousel .slides .slide-2,
+    .fade-carousel .slides .slide-3 {
+        height: 100vh;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .fade-carousel .slides .slide-1 {
+        background-image: url(images/header/hires.jpg);
+    }
+    .fade-carousel .slides .slide-2 {
+        background-image: url(images/header/cb.jpg);
+    }
+    .fade-carousel .slides .slide-3 {
+        background-image: url(images/header/mp.jpg);
+    }
+
+    /********************************/
+    /*          Media Queries       */
+    /********************************/
+    @media screen and (min-width: 980px){
+        .hero { width: 980px; }
+    }
+    @media screen and (max-width: 640px){
+        .hero h1 { font-size: 4em; }
+    }
+</style>
 </div>
 
 <div class="hs_service_main_wrapper">
@@ -808,6 +787,7 @@ Purchase:
 <script src="js/jquery.inview.min.js"></script>
 <script src="js/jquery.magnific-popup.js"></script>
 <script src="js/custom.js"></script>
+
 <!--main js file end-->
 </body>
 <script>
