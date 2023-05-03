@@ -2335,7 +2335,6 @@ width:100%;
 }
 .hs_service_icon_main_wrapper{
 	display:inline-block;
-	border:1px dashed #cecece;
 	-webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
