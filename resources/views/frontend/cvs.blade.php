@@ -167,10 +167,9 @@ Purchase:
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="hs_about_right_cont_wrapper">
                     <h2>GET THE JOB YOU WANT with a very good cv</h2>
-                    <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu
-                        ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue.</p>
+                    <p></p>
                     <h3>Contact Us</h3>
-                    <h1>+1800-123-123</h1>
+                    <h1>0795390602</h1>
                     <div class="hs_effect_btn hs_about_btn">
                         <ul>
                             <li><a href="#" class="hs_btn_hover">Read more</a></li>
@@ -189,7 +188,7 @@ Purchase:
             <div class="hs_main_cycle_main">
                 <span class="timer">25</span>
             </div>
-            <h5 class="con1">Trusted by<br> Million Clients</h5>
+            <h5 class="con1">Trusted by<br> Hundreds Clients</h5>
         </div>
     </div>
     <div class="hs_counter_cont_wrapper">
@@ -206,7 +205,7 @@ Purchase:
             <div class="hs_main_cycle_main">
                 <span class="timer">45</span>
             </div>
-            <h5 class="con3">Types of <br> Horoscopes
+            <h5 class="con3">Our <br> Customers
             </h5>
         </div>
     </div>
@@ -215,7 +214,7 @@ Purchase:
             <div class="hs_main_cycle_main">
                 <span class="timer">99</span>
             </div>
-            <h5 class="con4">Qualified <br> Astrologers
+            <h5 class="con4">Completed <br> Work
             </h5>
         </div>
     </div>
@@ -224,7 +223,7 @@ Purchase:
             <div class="hs_main_cycle_main">
                 <span class="timer">89</span>
             </div>
-            <h5 class="con4">Sucess<br> Horoscope
+            <h5 class="con4">Our Client<br> Testimonies
             </h5>
         </div>
     </div>
@@ -243,7 +242,7 @@ Purchase:
                     <div class="hs_about_heading_wrapper">
                         <h2>Our <span> services</span></h2>
                         <h4><span></span></h4>
-                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum<br> auctor, nisi elit consequat hello Aenean world.</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -268,7 +267,6 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>CV Review</h2>
-                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean .</p>
                                         <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
@@ -283,7 +281,6 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>CV Writting</h2>
-                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean .</p>
                                         <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
@@ -298,7 +295,6 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>Coverletter</h2>
-                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean .</p>
                                         <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
@@ -314,7 +310,6 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>Passport Services</h2>
-                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean .</p>
                                         <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
@@ -330,7 +325,6 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>Kra Services</h2>
-                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean .</p>
                                         <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
@@ -346,7 +340,6 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>Typing Jobs</h2>
-                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean .</p>
                                         <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
@@ -362,7 +355,6 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>Goverment Services</h2>
-                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean .</p>
                                         <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
@@ -378,7 +370,6 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>NTSA Services</h2>
-                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean .</p>
                                         <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>

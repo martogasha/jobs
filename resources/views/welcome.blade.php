@@ -147,7 +147,7 @@ Purchase:
                             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                                 <div class="content">
                                     <h2 data-animation="animated zoomInDown">FIND A <span>JOB</span></h2>
-                                    <p data-animation="animated bounceInUp">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit<br> consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio.</p>
+                                    <p data-animation="animated bounceInUp"></p>
                                     <div class="hs_effect_btn">
                                         <ul>
                                             <li data-animation="animated flipInX"><a href="{{url('jobs')}}" class="hs_btn_hover">Read more</a></li>
@@ -210,7 +210,7 @@ Purchase:
                             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                                 <div class="content">
                                     <h2 data-animation="animated zoomInDown">cv <span>services</span></h2>
-                                    <p data-animation="animated bounceInUp">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit<br> consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio.</p>
+                                    <p data-animation="animated bounceInUp"></p>
                                     <div class="hs_effect_btn">
                                         <ul>
                                             <li data-animation="animated flipInX"><a href="{{url('cvs')}}" class="hs_btn_hover">Read more</a></li>
@@ -262,12 +262,11 @@ Purchase:
                         <div class="row">
                             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                                 <div class="content">
-                                    <h1 data-animation="animated bounceInLeft"><img src="images/header/slider_logo.png" alt="slider_logo" /></h1>
-                                    <h2 data-animation="animated zoomInDown">the best <span>horoscope</span></h2>
-                                    <p data-animation="animated bounceInUp">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit<br> consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio.</p>
+                                    <h2 data-animation="animated zoomInDown">Our <span>Marketplace</span></h2>
+                                    <p data-animation="animated bounceInUp"></p>
                                     <div class="hs_effect_btn">
                                         <ul>
-                                            <li data-animation="animated flipInX"><a href="#" class="hs_btn_hover">Read more</a></li>
+                                            <li data-animation="animated flipInX"><a href="#" class="hs_btn_hover">Explore more</a></li>
                                         </ul>
                                     </div>
                                     <div class="clear"></div>
@@ -277,13 +276,25 @@ Purchase:
                                 <div class="content_tabs">
                                     <div class="row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="hs_slider_right_tabs_wrapper hs_slider_right_tabs_wrapper2" data-animation="animated bounceInLeft hs_slider_tab_three">
+                                                <div class="hs_slider_tabs_icon_wrapper">
+                                                    <i class="flaticon-avatar"></i>
+                                                </div>
+                                                <div class="hs_slider_tabs_icon_cont_wrapper">
+                                                    <ul>
+                                                        <li><a href="#" class="hs_tabs_btn">Newest</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="hs_slider_right_tabs_wrapper" data-animation="animated bounceInLeft hs_slider_tab_one">
                                                 <div class="hs_slider_tabs_icon_wrapper">
                                                     <i class="flaticon-horse-head"></i>
                                                 </div>
                                                 <div class="hs_slider_tabs_icon_cont_wrapper">
                                                     <ul>
-                                                        <li><a href="#" class="hs_tabs_btn">Chinese Astrology</a></li>
+                                                        <li><a href="#" class="hs_tabs_btn">Most Viewed</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -295,43 +306,7 @@ Purchase:
                                                 </div>
                                                 <div class="hs_slider_tabs_icon_cont_wrapper">
                                                     <ul>
-                                                        <li><a href="#" class="hs_tabs_btn">Vasthusastra</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="hs_slider_right_tabs_wrapper hs_slider_right_tabs_wrapper2" data-animation="animated bounceInLeft hs_slider_tab_three">
-                                                <div class="hs_slider_tabs_icon_wrapper">
-                                                    <i class="flaticon-avatar"></i>
-                                                </div>
-                                                <div class="hs_slider_tabs_icon_cont_wrapper">
-                                                    <ul>
-                                                        <li><a href="#" class="hs_tabs_btn">Carrer Tarot</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="hs_slider_right_tabs_wrapper hs_slider_right_tabs_wrapper2" data-animation="animated bounceInRight hs_slider_tab_four">
-                                                <div class="hs_slider_tabs_icon_wrapper">
-                                                    <i class="flaticon-shapes"></i>
-                                                </div>
-                                                <div class="hs_slider_tabs_icon_cont_wrapper">
-                                                    <ul>
-                                                        <li><a href="#" class="hs_tabs_btn">Love Tarot</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="hs_slider_right_tabs_wrapper hs_slider_right_tabs_wrapper2" data-animation="animated bounceInLeft hs_slider_tab_fifth">
-                                                <div class="hs_slider_tabs_icon_wrapper">
-                                                    <i class="flaticon-coins"></i>
-                                                </div>
-                                                <div class="hs_slider_tabs_icon_cont_wrapper">
-                                                    <ul>
-                                                        <li><a href="#" class="hs_tabs_btn">Numerology</a></li>
+                                                        <li><a href="#" class="hs_tabs_btn">Popular</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -370,7 +345,6 @@ Purchase:
                     <div class="hs_about_heading_wrapper">
                         <h2>Our <span> services</span></h2>
                         <h4><span></span></h4>
-                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum<br> auctor, nisi elit consequat hello Aenean world.</p>
                     </div>
                 </div>
             </div>
@@ -395,7 +369,7 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>CV Review</h2>
-                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean .</p>
+                                        <p></p>
                                         <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
@@ -410,7 +384,6 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>CV Writting</h2>
-                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean .</p>
                                         <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
@@ -425,7 +398,6 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>Coverletter</h2>
-                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean .</p>
                                         <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
@@ -441,7 +413,6 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>Passport Services</h2>
-                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean .</p>
                                         <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
@@ -457,7 +428,6 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>Kra Services</h2>
-                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean .</p>
                                         <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
@@ -473,7 +443,6 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>Typing Jobs</h2>
-                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean .</p>
                                         <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
@@ -489,7 +458,6 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>Goverment Services</h2>
-                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean .</p>
                                         <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
@@ -505,7 +473,6 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>NTSA Services</h2>
-                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean .</p>
                                         <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
@@ -526,108 +493,108 @@ Purchase:
 <!-- hs news slider wrapper Start -->
 <!-- hs news slider wrapper End -->
 <!-- hs latest news wrapper Start -->
-<div class="hs_latest_news_main_wrapper">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="hs_about_heading_main_wrapper">
-                    <div class="hs_about_heading_wrapper">
-                        <h2>Latest <span> News</span></h2>
-                        <h4><span></span></h4>
-                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum<br> auctor, nisi elit consequat hello Aenean world.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <div class="hs_lest_news_box_wrapper">
-                    <div class="hs_lest_news_img_wrapper">
-                        <img src="images/content/news_img1.jpg" alt="blog_img">
-                        <div class="hs_lest_news_date_wrapper">
-                            <ul>
-                                <li>25</li>
-                                <li>DEC</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="hs_lest_news_cont_wrapper">
-                        <h5>Proin gravida nibh vel velit auctor aliquet.</h5>
-                        <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet.</p>
-                        <h4><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h4>
-                    </div>
-                    <div class="hs_lest_news_cont_bottom">
-                        <div class="hs_lest_news_cont_bottom_left">
-                            <p><a href="#">by - Admin</a></p>
-                        </div>
-                        <div class="hs_lest_news_cont_bottom_center">
-                            <p><a href="#">1244 Likes</a></p>
-                        </div>
-                        <div class="hs_lest_news_cont_bottom_right">
-                            <p><a href="#">04 Comm.</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <div class="hs_lest_news_box_wrapper">
-                    <div class="hs_lest_news_img_wrapper">
-                        <img src="images/content/news_img2.jpg" alt="blog_img">
-                        <div class="hs_lest_news_date_wrapper">
-                            <ul>
-                                <li>25</li>
-                                <li>DEC</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="hs_lest_news_cont_wrapper">
-                        <h5>Proin gravida nibh vel velit auctor aliquet.</h5>
-                        <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet.</p>
-                        <h4><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h4>
-                    </div>
-                    <div class="hs_lest_news_cont_bottom">
-                        <div class="hs_lest_news_cont_bottom_left">
-                            <p><a href="#">by - Admin</a></p>
-                        </div>
-                        <div class="hs_lest_news_cont_bottom_center">
-                            <p><a href="#">1244 Likes</a></p>
-                        </div>
-                        <div class="hs_lest_news_cont_bottom_right">
-                            <p><a href="#">04 Comm.</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <div class="hs_lest_news_box_wrapper">
-                    <div class="hs_lest_news_img_wrapper">
-                        <img src="images/content/news_img3.jpg" alt="blog_img">
-                        <div class="hs_lest_news_date_wrapper">
-                            <ul>
-                                <li>25</li>
-                                <li>DEC</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="hs_lest_news_cont_wrapper">
-                        <h5>Proin gravida nibh vel velit auctor aliquet.</h5>
-                        <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet.</p>
-                        <h4><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h4>
-                    </div>
-                    <div class="hs_lest_news_cont_bottom">
-                        <div class="hs_lest_news_cont_bottom_left">
-                            <p><a href="#">by - Admin</a></p>
-                        </div>
-                        <div class="hs_lest_news_cont_bottom_center">
-                            <p><a href="#">1244 Likes</a></p>
-                        </div>
-                        <div class="hs_lest_news_cont_bottom_right">
-                            <p><a href="#">04 Comm.</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+{{--<div class="hs_latest_news_main_wrapper">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">--}}
+{{--                <div class="hs_about_heading_main_wrapper">--}}
+{{--                    <div class="hs_about_heading_wrapper">--}}
+{{--                        <h2>Latest <span> News</span></h2>--}}
+{{--                        <h4><span></span></h4>--}}
+{{--                        <p></p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">--}}
+{{--                <div class="hs_lest_news_box_wrapper">--}}
+{{--                    <div class="hs_lest_news_img_wrapper">--}}
+{{--                        <img src="images/content/news_img1.jpg" alt="blog_img">--}}
+{{--                        <div class="hs_lest_news_date_wrapper">--}}
+{{--                            <ul>--}}
+{{--                                <li>25</li>--}}
+{{--                                <li>DEC</li>--}}
+{{--                            </ul>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="hs_lest_news_cont_wrapper">--}}
+{{--                        <h5>Proin gravida nibh vel velit auctor aliquet.</h5>--}}
+{{--                        <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet.</p>--}}
+{{--                        <h4><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h4>--}}
+{{--                    </div>--}}
+{{--                    <div class="hs_lest_news_cont_bottom">--}}
+{{--                        <div class="hs_lest_news_cont_bottom_left">--}}
+{{--                            <p><a href="#">by - Admin</a></p>--}}
+{{--                        </div>--}}
+{{--                        <div class="hs_lest_news_cont_bottom_center">--}}
+{{--                            <p><a href="#">1244 Likes</a></p>--}}
+{{--                        </div>--}}
+{{--                        <div class="hs_lest_news_cont_bottom_right">--}}
+{{--                            <p><a href="#">04 Comm.</a></p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">--}}
+{{--                <div class="hs_lest_news_box_wrapper">--}}
+{{--                    <div class="hs_lest_news_img_wrapper">--}}
+{{--                        <img src="images/content/news_img2.jpg" alt="blog_img">--}}
+{{--                        <div class="hs_lest_news_date_wrapper">--}}
+{{--                            <ul>--}}
+{{--                                <li>25</li>--}}
+{{--                                <li>DEC</li>--}}
+{{--                            </ul>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="hs_lest_news_cont_wrapper">--}}
+{{--                        <h5>Proin gravida nibh vel velit auctor aliquet.</h5>--}}
+{{--                        <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet.</p>--}}
+{{--                        <h4><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h4>--}}
+{{--                    </div>--}}
+{{--                    <div class="hs_lest_news_cont_bottom">--}}
+{{--                        <div class="hs_lest_news_cont_bottom_left">--}}
+{{--                            <p><a href="#">by - Admin</a></p>--}}
+{{--                        </div>--}}
+{{--                        <div class="hs_lest_news_cont_bottom_center">--}}
+{{--                            <p><a href="#">1244 Likes</a></p>--}}
+{{--                        </div>--}}
+{{--                        <div class="hs_lest_news_cont_bottom_right">--}}
+{{--                            <p><a href="#">04 Comm.</a></p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">--}}
+{{--                <div class="hs_lest_news_box_wrapper">--}}
+{{--                    <div class="hs_lest_news_img_wrapper">--}}
+{{--                        <img src="images/content/news_img3.jpg" alt="blog_img">--}}
+{{--                        <div class="hs_lest_news_date_wrapper">--}}
+{{--                            <ul>--}}
+{{--                                <li>25</li>--}}
+{{--                                <li>DEC</li>--}}
+{{--                            </ul>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="hs_lest_news_cont_wrapper">--}}
+{{--                        <h5>Proin gravida nibh vel velit auctor aliquet.</h5>--}}
+{{--                        <p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet.</p>--}}
+{{--                        <h4><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h4>--}}
+{{--                    </div>--}}
+{{--                    <div class="hs_lest_news_cont_bottom">--}}
+{{--                        <div class="hs_lest_news_cont_bottom_left">--}}
+{{--                            <p><a href="#">by - Admin</a></p>--}}
+{{--                        </div>--}}
+{{--                        <div class="hs_lest_news_cont_bottom_center">--}}
+{{--                            <p><a href="#">1244 Likes</a></p>--}}
+{{--                        </div>--}}
+{{--                        <div class="hs_lest_news_cont_bottom_right">--}}
+{{--                            <p><a href="#">04 Comm.</a></p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</div>--}}
 <!-- hs latest news wrapper End -->
 <!-- hs Counter wrapper Start -->
 <div class="hs_counter_main_wrapper">
@@ -686,7 +653,6 @@ Purchase:
                     <div class="hs_about_heading_wrapper">
                         <h2>What clients <span> are saying</span></h2>
                         <h4><span></span></h4>
-                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum<br> auctor, nisi elit consequat hello Aenean world.</p>
                     </div>
                 </div>
             </div>

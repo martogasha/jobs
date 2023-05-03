@@ -174,28 +174,9 @@ Purchase:
                             </div>
                             <div class="hs_blog_right_cate_list_cont_wrapper">
                                 <ul>
-                                    <li><a href="#">Yantra</a></li>
-                                    <li><a href="#">Gemstone</a></li>
-                                    <li><a href="#">Books</a></li>
-                                    <li><a href="#">Workshop DVD</a></li>
-                                    <li><a href="#">Pendal</a></li>
-                                    <li><a href="#">Puja Accessories</a></li>
-                                    <li><a href="#">Religion Spiritual Gems Stones</a></li>
-                                    <li><a href="#">Feng Shui Products</a></li>
-                                    <li><a href="#">Lucky Stones</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="hs_blog_right_cate_list_heading_wrapper">
-                                <h2>New Products</h2>
-                            </div>
-                            <div class="hs_blog_right_cate_list_cont_wrapper">
-                                <ul>
-                                    <li><a href="#">Lucky Bag</a></li>
-                                    <li><a href="#">Numerology Kavach Ring</a></li>
-                                    <li><a href="#">Pyramids</a></li>
-                                    <li><a href="#">Puja Services</a></li>
+                                    <li><a href="#">Newest</a></li>
+                                    <li><a href="#">Most Viewed</a></li>
+                                    <li><a href="#">Popular</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -208,7 +189,7 @@ Purchase:
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="hs_shop_tabs_sec_wrapper">
                                 <ul class="nav nav-pills">
-                                    <li class="active"><a data-toggle="pill" href="#home">Products</a></li>
+                                    <li class="active"><a data-toggle="pill" href="#home">Electronics</a></li>
                                     <li><a data-toggle="pill" href="#menu1">Softwares</a></li>
                                     <li><a data-toggle="pill" href="#menu2">Books</a></li>
                                 </ul>
@@ -394,45 +375,10 @@ Purchase:
                             </div>
                             <div class="hs_blog_right_cate_list_cont_wrapper">
                                 <ul>
-                                    <li><a href="#">Yantra</a></li>
-                                    <li><a href="#">Gemstone</a></li>
-                                    <li><a href="#">Books</a></li>
-                                    <li><a href="#">Workshop DVD</a></li>
-                                    <li><a href="#">Pendal</a></li>
-                                    <li><a href="#">Puja Accessories</a></li>
-                                    <li><a href="#">Religion Spiritual Gems Stones</a></li>
-                                    <li><a href="#">Feng Shui Products</a></li>
-                                    <li><a href="#">Lucky Stones</a></li>
+                                    <li><a href="#">Newest</a></li>
+                                    <li><a href="#">Most Viewed</a></li>
+                                    <li><a href="#">Popular</a></li>
                                 </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="hs_blog_right_cate_list_heading_wrapper">
-                                <h2>New Products</h2>
-                            </div>
-                            <div class="hs_blog_right_cate_list_cont_wrapper">
-                                <ul>
-                                    <li><a href="#">Lucky Bag</a></li>
-                                    <li><a href="#">Numerology Kavach Ring</a></li>
-                                    <li><a href="#">Pyramids</a></li>
-                                    <li><a href="#">Puja Services</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="hs_kd_right_first_sec_wrapper2">
-                                <div class="hs_kd_right_first_sec_heading">
-                                    <h2>Black magic</h2>
-                                </div>
-                                <div class="hs_kd_right_first_sec_img_heading">
-                                    <img src="images/content/kundali/patrika3.jpg" alt="patrika" />
-                                </div>
-                                <div class="hs_kd_right_first_sec_img_price_heading">
-                                    <ul>
-                                        <li>Kundli Patrika</li>
-                                        <li>$26</li>
-                                    </ul>
-                                </div>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 visible-sm visible-xs">
@@ -459,60 +405,7 @@ Purchase:
 <!-- hs online slider wrapper Start -->
 <!-- hs online slider wrapper End -->
 <!-- hs footer wrapper Start -->
-<div class="hs_footer_main_wrapper">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <div class="hs_footer_logo_wrapper">
-                    <img src="images/content/footer_logo.png" alt="footer_logo" class="img-responsive" />
-                    <p>Donec id elit non mi porta gravida at eget metus. Donec id elit non Vestibulum id ligula porta felis euism od semper. Nulla vitae elit libero</p>
-                    <h4><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h4>
-                    <ul>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <div class="hs_footer_help_wrapper">
-                    <h2>Need <span>Our Help</span></h2>
-                    <p>Need help with designing your brand new website or you have any idea and thinking of getting it’s branding done then get a FREE quote today.</p>
-                    <div class="hs_footer_help_btn">
-                        <ul>
-                            <li><a href="#" class="hs_btn_hover">Free Quote</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <div class="hs_footer_contact_wrapper">
-                    <h2>Contact <span>Us Today</span></h2>
-                    <p>Call Us <span>666 777 888</span> OR <span>111 222 333</span> Send an Email on <a href="#"><span class="__cf_email__" data-cfemail="81e2eeeff5e0e2f5c1e4f9e0ecf1ede4afe2eeec">[email&#160;protected]</span></a> Visit Us 123 Fake Street- London 12358
-                        <br>United Kingdom</p>
-                    <div class="hs_footer_contact_input_wrapper">
-                        <input type="text" placeholder="Email Address..."><i class="fa fa-envelope"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- hs footer wrapper End -->
-<!-- hs bottom footer wrapper Start -->
-<div class="hs_bottom_footer_main_wrapper">
-    <a href="javascript:" id="return-to-top"><i class="fa fa-angle-up"></i></a>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="footer_bottom_cont_wrapper">
-                    <p>© Copyright 2022 by Horoscope. All right Reserved - Design By Webstrot</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+@include('footer')
 <!-- hs bottom footer wrapper End -->
 <!--main js file start-->
 <script data-cfasync="false" src="https://www.webstrot.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery_min.js"></script>

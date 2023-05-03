@@ -10,18 +10,13 @@
                 <img src="{{asset('images/header/avatar.jpg')}}" alt="user">
                 <p><i class="fa fa-plus"></i></p>
             </div>
-            <div class="hs_btn_wrapper">
-                <ul>
-                    <li><a href="#" class="hs_btn_hover">Appointments</a></li>
-                </ul>
-            </div>
             <div class="hs_header_add_wrapper hidden-xs hidden-sm">
                 <div class="hs_header_add_icon">
                     <i class="fa fa-home"></i>
                 </div>
                 <div class="hs_header_add_icon_cont">
                     <h5>Reach Us</h5>
-                    <p>601 , Ram Nagar Dewas</p>
+                    <p>Kikuyu</p>
                 </div>
             </div>
             <div class="hs_header_add_wrapper hidden-xs hidden-sm">
@@ -29,8 +24,8 @@
                     <i class="fa fa-phone"></i>
                 </div>
                 <div class="hs_header_add_icon_cont">
-                    <h5>Talk to Astrologers</h5>
-                    <p>+91-123456789</p>
+                    <h5>Talk to Us</h5>
+                    <p>0795390602</p>
                 </div>
             </div>
             <div class="modal fade" id="myModal" role="dialog">

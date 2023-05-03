@@ -4,8 +4,7 @@
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="hs_footer_logo_wrapper">
                     <img src="images/header/ll.jpg" alt="footer_logo" class="img-responsive" />
-                    <p>Donec id elit non mi porta gravida at eget metus. Donec id elit non Vestibulum id ligula porta felis euism od semper. Nulla vitae elit libero</p>
-                    <h4><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h4>
+                    <p>Visit us on our social media platforms</p>
                     <ul>
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -17,19 +16,18 @@
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="hs_footer_help_wrapper">
                     <h2>Need <span>Our Help</span></h2>
-                    <p>Need help with designing your brand new website or you have any idea and thinking of getting it’s branding done then get a FREE quote today.</p>
+                    <p>Need help with CV review/writing, online cyber or finding a job.</p>
                     <div class="hs_footer_help_btn">
                         <ul>
-                            <li><a href="#" class="hs_btn_hover">Free Quote</a></li>
+                            <li><a href="#" class="hs_btn_hover">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="hs_footer_contact_wrapper">
-                    <h2>Contact <span>Us Today</span></h2>
-                    <p>Call Us <span>666 777 888</span> OR <span>111 222 333</span> Send an Email on <a href="#"><span class="__cf_email__" data-cfemail="65060a0b1104061125001d04081509004b060a08">[email&#160;protected]</span></a> Visit Us 123 Fake Street- London 12358
-                        <br>United Kingdom</p>
+                    <h2>Newsletter</h2>
+                    <p>Subscribe to our Newsletter to get latest updates</p>
                     <div class="hs_footer_contact_input_wrapper">
                         <input type="text" placeholder="Email Address..."><i class="fa fa-envelope"></i>
                     </div>
@@ -46,7 +44,7 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="footer_bottom_cont_wrapper">
-                    <p>© Copyright 2022 by Horoscope. All right Reserved - Design By Webstrot</p>
+                    <p>© Copyright 2023 by briden jobs. All right Reserved</p>
                 </div>
             </div>
         </div>

@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('comingSoon');
+    return view('welcome');
 });
 //Auth
 Route::post('Login', [AuthController::class, 'Login']);
