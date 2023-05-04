@@ -148,7 +148,8 @@ Purchase:
                             </div>
 
                                         <div class="form-group">
-                                                <table class="table table-bordered table-hover" id="dynamic_field">
+                                            <label for="inputAddress2">Job Description</label>
+                                            <table class="table table-bordered table-hover" id="dynamic_field">
                                                     <tr>
                                                         <td><input type="text" name="name[]" placeholder="Enter your Name" class="form-control name_list" /></td>
                                                         <td><button type="button" name="add" id="add" class="btn btn-primary">Add More</button></td>
