@@ -146,10 +146,15 @@ Purchase:
                                 <label for="inputAddress">Country</label>
                                 <input type="text" class="form-control" name="country" placeholder="Country">
                             </div>
-                            <div class="form-group">
-                                <label for="inputAddress">Job Description/Requirements</label>
-                                <input type="text" class="form-control" name="job_desc" placeholder="Job Description/Requirements">
-                            </div>
+
+                                        <div class="form-group">
+                                                <table class="table table-bordered table-hover" id="dynamic_field">
+                                                    <tr>
+                                                        <td><input type="text" name="name[]" placeholder="Enter your Name" class="form-control name_list" /></td>
+                                                        <td><button type="button" name="add" id="add" class="btn btn-primary">Add More</button></td>
+                                                    </tr>
+                                                </table>
+                                        </div>
                             <div class="form-group">
                                 <label for="inputAddress2">Qualifications and Skills</label>
                                 <input type="text" class="form-control" name="job_skills" placeholder="Qualifications and Skills">
@@ -274,7 +279,63 @@ Purchase:
 <script src="{{asset('js/custom.js')}}"></script>
 <!--main js file end-->
 </body>
+<script>
+    $(document).ready(function(){
 
+        var i = 1;
+        var length;
+        //var addamount = 0;
+        var addamount = 700;
+
+        $("#add").click(function(){
+
+            <!-- var rowIndex = $('#dynamic_field').find('tr').length;	 -->
+            <!-- console.log('rowIndex: ' + rowIndex); -->
+            <!-- console.log('amount: ' + addamount); -->
+            <!-- var currentAmont = rowIndex * 700; -->
+            <!-- console.log('current amount: ' + currentAmont); -->
+            <!-- addamount += currentAmont; -->
+
+            addamount += 700;
+            console.log('amount: ' + addamount);
+            i++;
+            $('#dynamic_field').append('<tr id="row'+i+'"><td><input type="text" name="name[]" placeholder="Job Description" class="form-control name_list"/></td><td><button type="button" name="remove" id="'+i+'" class="btn btn-danger btn_remove">X</button></td></tr>');
+        });
+
+        $(document).on('click', '.btn_remove', function(){
+            addamount -= 700;
+            console.log('amount: ' + addamount);
+
+            <!-- var rowIndex = $('#dynamic_field').find('tr').length;	 -->
+            <!-- addamount -= (700 * rowIndex); -->
+            <!-- console.log(addamount); -->
+
+            var button_id = $(this).attr("id");
+            $('#row'+button_id+'').remove();
+        });
+
+
+
+        $("#submit").on('click',function(event){
+            var formdata = $("#add_name").serialize();
+            console.log(formdata);
+
+            event.preventDefault()
+
+            $.ajax({
+                url   :"action.php",
+                type  :"POST",
+                data  :formdata,
+                cache :false,
+                success:function(result){
+                    alert(result);
+                    $("#add_name")[0].reset();
+                }
+            });
+
+        });
+    });
+</script>
 
 <!-- Mirrored from www.webstrot.com/html/horoscope/light_version/blog_categories.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Apr 2023 03:58:20 GMT -->
 </html>

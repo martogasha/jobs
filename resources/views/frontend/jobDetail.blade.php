@@ -191,7 +191,130 @@ Purchase:
                                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                         <div class="hs_pr_tabs_cont1_wrapper">
                                                             <h2>Job Description/Requirements</h2>
-                                                            <p>{{$job->job_desc}}</p>
+                                                            <br>
+                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <div class="hs_pr_icon_wrapper">
+                                                                                <i class="fa fa-circle"></i>
+                                                                            </div>
+                                                                            <div class="hs_pr_icon_cont_wrapper">
+                                                                                {{$job->job_desc}}
+                                                                            </div>
+                                                                        </li>
+                                                                        @if($job->bullet)
+                                                                            <li>
+                                                                                <div class="hs_pr_icon_wrapper">
+                                                                                    <i class="fa fa-circle"></i>
+                                                                                </div>
+                                                                                <div class="hs_pr_icon_cont_wrapper">
+                                                                                    {{$job->bullet}}
+                                                                                </div>
+                                                                            </li>
+                                                                        @endif
+                                                                        @if($job->bullet_one)
+                                                                            <li>
+                                                                                <div class="hs_pr_icon_wrapper">
+                                                                                    <i class="fa fa-circle"></i>
+                                                                                </div>
+                                                                                <div class="hs_pr_icon_cont_wrapper">
+                                                                                    {{$job->bullet_one}}
+                                                                                </div>
+                                                                            </li>
+                                                                        @endif
+                                                                        @if($job->bullet_two)
+                                                                            <li>
+                                                                                <div class="hs_pr_icon_wrapper">
+                                                                                    <i class="fa fa-circle"></i>
+                                                                                </div>
+                                                                                <div class="hs_pr_icon_cont_wrapper">
+                                                                                    {{$job->bullet_two}}
+                                                                                </div>
+                                                                            </li>
+                                                                        @endif
+                                                                        @if($job->bullet_three)
+                                                                            <li>
+                                                                                <div class="hs_pr_icon_wrapper">
+                                                                                    <i class="fa fa-circle"></i>
+                                                                                </div>
+                                                                                <div class="hs_pr_icon_cont_wrapper">
+                                                                                    {{$job->bullet_three}}
+                                                                                </div>
+                                                                            </li>
+                                                                        @endif
+                                                                        @if($job->bullet_four)
+                                                                            <li>
+                                                                                <div class="hs_pr_icon_wrapper">
+                                                                                    <i class="fa fa-circle"></i>
+                                                                                </div>
+                                                                                <div class="hs_pr_icon_cont_wrapper">
+                                                                                    {{$job->bullet_four}}
+                                                                                </div>
+                                                                            </li>
+                                                                        @endif
+                                                                        @if($job->bullet_five)
+                                                                            <li>
+                                                                                <div class="hs_pr_icon_wrapper">
+                                                                                    <i class="fa fa-circle"></i>
+                                                                                </div>
+                                                                                <div class="hs_pr_icon_cont_wrapper">
+                                                                                    {{$job->bullet_five}}
+                                                                                </div>
+                                                                            </li>
+                                                                        @endif
+                                                                        @if($job->bullet_six)
+                                                                            <li>
+                                                                                <div class="hs_pr_icon_wrapper">
+                                                                                    <i class="fa fa-circle"></i>
+                                                                                </div>
+                                                                                <div class="hs_pr_icon_cont_wrapper">
+                                                                                    {{$job->bullet_six}}
+                                                                                </div>
+                                                                            </li>
+                                                                        @endif
+                                                                        @if($job->bullet_seven)
+                                                                            <li>
+                                                                                <div class="hs_pr_icon_wrapper">
+                                                                                    <i class="fa fa-circle"></i>
+                                                                                </div>
+                                                                                <div class="hs_pr_icon_cont_wrapper">
+                                                                                    {{$job->bullet_seven}}
+                                                                                </div>
+                                                                            </li>
+                                                                        @endif
+                                                                        @if($job->bullet_eight)
+                                                                            <li>
+                                                                                <div class="hs_pr_icon_wrapper">
+                                                                                    <i class="fa fa-circle"></i>
+                                                                                </div>
+                                                                                <div class="hs_pr_icon_cont_wrapper">
+                                                                                    {{$job->bullet_eight}}
+                                                                                </div>
+                                                                            </li>
+                                                                        @endif
+                                                                        @if($job->bullet_nine)
+                                                                            <li>
+                                                                                <div class="hs_pr_icon_wrapper">
+                                                                                    <i class="fa fa-circle"></i>
+                                                                                </div>
+                                                                                <div class="hs_pr_icon_cont_wrapper">
+                                                                                    {{$job->bullet_nine}}
+                                                                                </div>
+                                                                            </li>
+                                                                        @endif
+                                                                        @if($job->bullet_ten)
+                                                                            <li>
+                                                                                <div class="hs_pr_icon_wrapper">
+                                                                                    <i class="fa fa-circle"></i>
+                                                                                </div>
+                                                                                <div class="hs_pr_icon_cont_wrapper">
+                                                                                    {{$job->bullet_ten}}
+                                                                                </div>
+                                                                            </li>
+                                                                        @endif
+
+                                                                    </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
 

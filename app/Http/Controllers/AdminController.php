@@ -35,18 +35,58 @@ class AdminController extends Controller
         return view('backend.postJob');
     }
     public function pJob(Request $request){
-        $job = Job::create([
-           'job_title'=>$request->input('job_title'),
-           'job_location'=>$request->input('job_location'),
-           'job_position'=>$request->input('job_position'),
-           'job_desc'=>$request->input('job_desc'),
-           'job_skills'=>$request->input('job_skills'),
-           'how_to_apply'=>$request->input('how_to_apply'),
-           'link'=>$request->input('link'),
-           'company'=>$request->input('company'),
-           'country'=>$request->input('country'),
-           'user_id'=>Auth::id(),
-        ]);
+        $jo = new Job();
+        $jo->job_title = $request->input('job_title');
+        $jo->job_location = $request->input('job_location');
+        $jo->job_position = $request->input('job_position');
+        $jo->job_desc = $request->name[0];
+        if (isset($request->name[1])){
+            $jo->bullet = $request->name[1];
+
+        }
+        if (isset($request->name[2])){
+            $jo->bullet_one = $request->name[2];
+
+        }
+        if (isset($request->name[3])){
+            $jo->bullet_two = $request->name[3];
+
+        }
+        if (isset($request->name[4])){
+            $jo->bullet_three = $request->name[4];
+
+        }
+        if (isset($request->name[5])){
+            $jo->bullet_four = $request->name[5];
+
+        }
+        if (isset($request->name[6])){
+            $jo->bullet_five = $request->name[6];
+
+        }
+        if (isset($request->name[7])){
+            $jo->bullet_six = $request->name[7];
+
+        }
+        if (isset($request->name[8])){
+            $jo->bullet_seven = $request->name[8];
+
+        }
+        if (isset($request->name[9])){
+            $jo->bullet_eight = $request->name[9];
+
+        }
+        if (isset($request->name[10])){
+            $jo->bullet_nine = $request->name[10];
+
+        }
+        $jo->job_skills = $request->input('job_skills');
+        $jo->how_to_apply = $request->input('how_to_apply');
+        $jo->link = $request->input('link');
+        $jo->company = $request->input('company');
+        $jo->country = $request->input('country');
+        $jo->user_id = Auth::id();
+        $jo->save();
         return redirect(url('adminJobs'))->with('success','JOB POSTED SUCCESS');
     }
     public function adminNews(){

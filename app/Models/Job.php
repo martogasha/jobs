@@ -19,6 +19,16 @@ class Job extends Model
         'company',
         'user_id',
         'country',
+        'bullet',
+        'bullet_one',
+        'bullet_two',
+        'bullet_three',
+        'bullet_four',
+        'bullet_five',
+        'bullet_six',
+        'bullet_seven',
+        'bullet_eight',
+        'bullet_nine',
     ];
     public function user(){
         return $this->belongsTo(User::class);
