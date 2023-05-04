@@ -33,7 +33,10 @@ Route::post('pJob', [AdminController::class, 'pJob']);
 Route::get('postNews', [AdminController::class, 'postNews']);
 Route::get('postProduct', [AdminController::class, 'postProduct']);
 Route::post('pProduct', [AdminController::class, 'pProduct']);
+Route::post('deleteJob', [AdminController::class, 'deleteJob']);
 Route::get('adminNews', [AdminController::class, 'adminNews']);
+Route::get('getJob', [AdminController::class, 'getJob']);
+
 //frontend
 Route::get('jobs', [FrontendController::class, 'jobs']);
 Route::get('jobDetail/{id}', [FrontendController::class, 'jobDetail']);

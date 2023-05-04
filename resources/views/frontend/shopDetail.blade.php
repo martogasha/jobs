@@ -34,6 +34,11 @@ Purchase:
     <link rel="stylesheet" type="text/css" href="{{asset('css/reset.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{asset('css/responsive.css')}}" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <!-- favicon links -->
     <link rel="shortcut icon" type="image/png" href="{{asset('images/header/favicon.ico')}}" />
 </head>
@@ -152,40 +157,43 @@ Purchase:
 <!-- hs shop single prod slider Start -->
 <div class="hs_shop_single_prod_slider_wrapper">
 
-<div class="container">
-    <div class="card">
-        <div class="container-fliud">
-            <div class="wrapper row">
-                <div class="preview col-md-6">
+    <div class="container">
+        <div class="card">
+            <div class="container-fliud">
+                <div class="wrapper row">
+                    <div class="preview col-md-6">
 
-                    <div class="preview-pic tab-content">
-                        <div class="tab-pane active" id="pic-1"><img src="{{asset('uploads/product/'.$product->image)}}" /></div>
-                        <div class="tab-pane" id="pic-2"><img src="{{asset('uploads/product/'.$product->imageOne)}}" /></div>
-                        <div class="tab-pane" id="pic-3"><img src="{{asset('uploads/product/'.$product->imageTwo)}}" /></div>
-                        <div class="tab-pane" id="pic-4"><img src="{{asset('uploads/product/'.$product->imageThree)}}" /></div>
+                        <div class="preview-pic tab-content">
+                            <div class="tab-pane active" id="pic-1"><img src="{{asset('uploads/product/'.$product->image)}}" /></div>
+                            <div class="tab-pane" id="pic-2"><img src="{{asset('uploads/product/'.$product->imageOne)}}" /></div>
+                            <div class="tab-pane" id="pic-3"><img src="{{asset('uploads/product/'.$product->imageTwo)}}" /></div>
+                            <div class="tab-pane" id="pic-4"><img src="{{asset('uploads/product/'.$product->imageThree)}}" /></div>
+                        </div>
+                        <ul class="preview-thumbnail nav nav-tabs">
+                            <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="{{asset('uploads/product/'.$product->image)}}" /></a></li>
+                            <li><a data-target="#pic-2" data-toggle="tab"><img src="{{asset('uploads/product/'.$product->imageOne)}}" /></a></li>
+                            <li><a data-target="#pic-3" data-toggle="tab"><img src="{{asset('uploads/product/'.$product->imageTwo)}}" /></a></li>
+                            <li><a data-target="#pic-4" data-toggle="tab"><img src="{{asset('uploads/product/'.$product->imageThree)}}" /></a></li>
+                        </ul>
+
                     </div>
-                    <ul class="preview-thumbnail nav nav-tabs">
-                        <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="{{asset('uploads/product/'.$product->image)}}" /></a></li>
-                        <li><a data-target="#pic-2" data-toggle="tab"><img src="{{asset('uploads/product/'.$product->imageOne)}}" /></a></li>
-                        <li><a data-target="#pic-3" data-toggle="tab"><img src="{{asset('uploads/product/'.$product->imageTwo)}}" /></a></li>
-                        <li><a data-target="#pic-4" data-toggle="tab"><img src="{{asset('uploads/product/'.$product->imageThree)}}" /></a></li>
-                    </ul>
-
-                </div>
-                <div class="details col-md-6">
-                    <h3 class="product-title">{{$product->product_title}}</h3>
-                    <p class="product-description">{{$product->product_desc}}</p>
-                    <h4 class="price" style="font-size: 30px">Ksh {{$product->product_amount}}</h4>
-
-                    <div class="action">
-                        <button class="add-to-cart btn btn-default" type="button">add to cart</button>
-                        <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
+                    <div class="details col-md-6">
+                        <h3 class="product-title">{{$product->product_title}}</h3>
+                        <p class="product-description">{{$product->product_desc}}</p>
+                        <h4 class="price">Price: <span style="font-size: 30px">Ksh {{$product->product_amount}}</span></h4>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Send Message</label>
+                            <input type="text" class="form-control" id="last_name" aria-describedby="emailHelp" placeholder="Send message to seller" required>
+                        </div>
+                        <div class="action">
+                            <button class="add-to-cart btn btn-default" type="button">add to cart</button>
+                            <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 <style>
 
@@ -356,84 +364,6 @@ Purchase:
 </style>
 <!-- btc shop single tabs Wrapper End -->
 <!-- hs popular prodt wrapper Start -->
-<div class="hs_shop_pp_main_wrapper">
-    <div class="hs_shop_pp_img_overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="hs_about_heading_main_wrapper">
-                    <div class="hs_about_heading_wrapper">
-                        <h2>Popular <span> Product</span></h2>
-                        <h4><span></span></h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <div class="hs_shop_pp_main_box_wrapper">
-                    <div class="hs_shop_pp_img_main_wrapper">
-                        <img src="{{asset('images/content/shop/pp1.jpg')}}" alt="product_img" />
-                        <a href="#">Add to Cart</a>
-                    </div>
-                    <div class="hs_shop_prodt_img_cont_wrapper hs_shop_pp_img_cont_main_wrapper">
-                        <h2><a href="#">Ek Mukhi Rudraksh</a></h2>
-                        <h3>$20 &nbsp;<del>$80</del>&nbsp; <span>(60% off)</span></h3>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                        <i class="fa fa-star-o"></i>
-                        <h4>Offers <span>Special Price</span></h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <div class="hs_shop_pp_main_box_wrapper">
-                    <div class="hs_shop_pp_img_main_wrapper">
-                        <img src="{{asset('images/content/shop/pp2.jpg')}}" alt="product_img" />
-                        <a href="#">Add to Cart</a>
-                    </div>
-                    <div class="hs_shop_prodt_img_cont_wrapper hs_shop_pp_img_cont_main_wrapper">
-                        <h2><a href="#">Panchdhatu Shankh</a></h2>
-                        <h3>$20 &nbsp;<del>$80</del>&nbsp; <span>(60% off)</span></h3>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                        <i class="fa fa-star-o"></i>
-                        <h4>Offers <span>Special Price</span></h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <div class="hs_shop_pp_main_box_wrapper">
-                    <div class="hs_shop_pp_img_main_wrapper">
-                        <img src="{{asset('images/content/shop/pp3.jpg')}}" alt="product_img" />
-                        <a href="#">Add to Cart</a>
-                    </div>
-                    <div class="hs_shop_prodt_img_cont_wrapper hs_shop_pp_img_cont_main_wrapper">
-                        <h2><a href="#">Raksha Pendal</a></h2>
-                        <h3>$20 &nbsp;<del>$80</del>&nbsp; <span>(60% off)</span></h3>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-o"></i>
-                        <i class="fa fa-star-o"></i>
-                        <h4>Offers <span>Special Price</span></h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="hs_pp_bottom_btn_wrapper">
-                    <div class="hs_pp_bottom_btn">
-                        <ul>
-                            <li><a href="#">View All</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- hs online slider wrapper End -->
 <!-- hs footer wrapper Start -->

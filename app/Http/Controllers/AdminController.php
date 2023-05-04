@@ -95,4 +95,13 @@ class AdminController extends Controller
            $product->save();
         return redirect(url('adminMarket'))->with('success','PRODUCT POSTED SUCCESS');
     }
+    public function getJob(Request $request){
+        $job = Job::find($request->id);
+        return response($job);
+    }
+    public function deleteJob(Request $request){
+        $job = Job::find($request->jobId);
+        $job->delete();
+        return redirect()->back()->with('success','JOB DELETED SUCCESS');
+    }
 }

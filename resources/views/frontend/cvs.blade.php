@@ -268,7 +268,7 @@ Purchase:
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>CV Review</h2>
                                         <p></p>
-                                        <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
+                                        <h5><a href="https://wa.me/0714466088">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
                             </div>
@@ -280,7 +280,7 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>CV Writting</h2>
-                                        <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
+                                        <h5><a href="https://wa.me/0714466088">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
                             </div>
@@ -292,7 +292,7 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>Coverletter</h2>
-                                        <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
+                                        <h5><a href="https://wa.me/0714466088">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
                             </div>
@@ -305,7 +305,7 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>Passport Services</h2>
-                                        <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
+                                        <h5><a href="https://wa.me/0714466088">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
                             </div>
@@ -318,7 +318,7 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>Kra Services</h2>
-                                        <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
+                                        <h5><a href="https://wa.me/0714466088">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
                             </div>
@@ -331,7 +331,7 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>Typing Jobs</h2>
-                                        <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
+                                        <h5><a href="https://wa.me/0714466088">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
                             </div>
@@ -344,7 +344,7 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>Goverment Services</h2>
-                                        <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
+                                        <h5><a href="https://wa.me/0714466088">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
                             </div>
@@ -357,7 +357,7 @@ Purchase:
                                     </div>
                                     <div class="hs_service_icon_cont_wrapper">
                                         <h2>NTSA Services</h2>
-                                        <h5><a href="#">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
+                                        <h5><a href="https://wa.me/0714466088">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                     </div>
                                 </div>
                             </div>
