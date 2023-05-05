@@ -136,13 +136,6 @@ Purchase:
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="hs_blog_box1_main_wrapper">
                                     <div class="hs_blog_box1_img_wrapper">
-                                        <img src="{{asset('uploads/product/'.$blog->image)}}" alt="blog_img">
-                                        <div class="hs_blog_Indx_date_wrapper">
-                                            <ul>
-                                                <li>29</li>
-                                                <li>Oct</li>
-                                            </ul>
-                                        </div>
                                     </div>
                                     <div class="hs_blog_box1_cont_main_wrapper">
                                         <div class="hs_blog_cont_heading_wrapper">
