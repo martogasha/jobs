@@ -135,14 +135,14 @@ Purchase:
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 full_width">
                 <div class="hs_indx_title_left_wrapper">
-                    <h2>News Detail</h2>
+                    <h2>{{$detail->title}}</h2>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 full_width">
                 <div class="hs_indx_title_right_wrapper">
                     <ul>
-                        <li><a href="#">Home</a> &nbsp;&nbsp;&nbsp;> </li>
-                        <li>News Detail</li>
+                        <li><a href="{{url('/')}}">Home</a> &nbsp;&nbsp;&nbsp;> </li>
+                        <li>{{$detail->title}}</li>
                     </ul>
                 </div>
             </div>
@@ -160,7 +160,7 @@ Purchase:
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="hs_blog_box1_main_wrapper">
                                 <div class="hs_blog_box1_img_wrapper">
-                                    <p>{{$detail->detail}}</p>
+                                    <p><b>{{$detail->detail}}</b></p>
 
                                     <br>
                                     <img src="{{asset('uploads/product/'.$detail->image)}}" alt="" />

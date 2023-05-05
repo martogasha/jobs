@@ -124,7 +124,7 @@ class AdminController extends Controller
         return redirect(url('adminJobs'))->with('success','JOB POSTED SUCCESS');
     }
     public function adminNews(){
-        $blogs = Blog::where('user_id',Auth::id())->get();
+        $blogs = Blog::where('user_id',Auth::id())->orderBy('id','DESC')->get();
         return view('backend.adminNews',[
             'blogs'=>$blogs
         ]);
@@ -173,9 +173,18 @@ class AdminController extends Controller
         $job = Job::find($request->id);
         return response($job);
     }
+    public function getBlog(Request $request){
+        $job = Blog::find($request->id);
+        return response($job);
+    }
     public function deleteJob(Request $request){
         $job = Job::find($request->jobId);
         $job->delete();
         return redirect()->back()->with('success','JOB DELETED SUCCESS');
+    }
+    public function deleteBlog(Request $request){
+        $job = Blog::find($request->jobId);
+        $job->delete();
+        return redirect()->back()->with('success','BLOG DELETED SUCCESS');
     }
 }

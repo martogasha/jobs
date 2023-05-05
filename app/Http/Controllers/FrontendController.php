@@ -6,13 +6,16 @@ use App\Models\Blog;
 use App\Models\Job;
 use App\Models\Product;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class FrontendController extends Controller
 {
     public function jobs(){
-        $jobs = Job::paginate(3);
+        $jobs = Job::paginate(4);
+        $bls = Blog::where('user_id',Auth::id())->orderBy('id','DESC')->paginate(4);
         return view('frontend.jobs',[
-            'jobs'=>$jobs
+            'jobs'=>$jobs,
+            'bls'=>$bls
         ]);
     }
     public function jobDetail($id){
@@ -37,7 +40,13 @@ class FrontendController extends Controller
         ]);
     }
     public function news(){
-        return view('frontend.news');
+        $blogs = Blog::where('user_id',Auth::id())->orderBy('id','DESC')->paginate(4);
+        $bls = Blog::where('user_id',Auth::id())->orderBy('id','ASC')->paginate(5);
+        return view('frontend.news',[
+            'blogs'=>$blogs,
+            'bls'=>$bls
+        ]);
+
     }
     public function newsDetail($id){
         $detail = Blog::find($id);

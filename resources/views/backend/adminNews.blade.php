@@ -125,6 +125,8 @@ Purchase:
 <!-- hs About Title End -->
 <!-- hs sidebar Start -->
 <div class="hs_blog_categories_main_wrapper">
+    @include('flash-message')
+
     <div class="container">
         <div class="row">
             <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
@@ -161,11 +163,8 @@ Purchase:
                                         </div>
                                         <div class="hs_blog_box1_bottom_cont_right">
                                             <ul>
-                                                <li>Share :</li>
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><button class="btn btn-danger job" id="{{$blog->id}}">Delete</button></li>
+
                                             </ul>
                                         </div>
                                     </div>
@@ -179,7 +178,32 @@ Purchase:
         </div>
     </div>
 </div>
-<!-- hs testi slider wrapper End -->
+                    <div class="modal fade" id="deleteJob" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header" style="background-color: red">
+                                    <h4 class="modal-title" style="font-size: 15px">Are you sure you want to delete <span style="font-size:20px;color: black" id="modalTitle"></span></h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="login">
+                                        <form action="{{url('deleteBlog')}}" method="post">
+                                            @csrf
+                                            <input type="hidden" id="job_id" name="jobId">
+                                            <button type="submit" style="background-color: red">DELETE</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- hs testi slider wrapper End -->
 <!-- hs advert wrapper Start -->
 
 <!-- hs online slider wrapper End -->
@@ -202,7 +226,32 @@ Purchase:
 <script src="js/custom.js"></script>
 <!--main js file end-->
 </body>
+<script>
+    $(document).on('click','.job',function () {
+        $value = $(this).attr('id');
+        $.ajax({
+            type:"get",
+            url:"{{url('getBlog')}}",
+            data:{'id':$value},
+            success:function (dat) {
+                $('#deleteJob').modal('show');
+                getRespons(dat);
+                console.log(dat);            },
+            error:function (error) {
+                console.log(error)
+                alert('error')
 
+            }
+
+        });
+    });
+    var dat;
+    function getRespons(response) {
+        dat = response;
+        $('#job_id').val(dat.id);
+        $('#modalTitle').text(dat.title);
+    }
+</script>
 <!-- Mirrored from www.webstrot.com/html/horoscope/light_version/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Apr 2023 03:55:56 GMT -->
 </html>
 
