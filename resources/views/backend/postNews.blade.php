@@ -114,13 +114,15 @@ Purchase:
 </div>
 <!-- hs About Title End -->
 <!-- hs sidebar Start -->
+@include('flash-message')
 <div class="hs_blog_categories_main_wrapper">
     <div class="container">
         <div class="row">
             <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                 <div class="hs_blog_left_sidebar_main_wrapper">
                     <div class="row">
-                        <form>
+                        <form action="{{url('postNew')}}" method="post" enctype="multipart/form-data">
+                            @csrf
                             <div class="form-group">
                                 <label for="inputAddress">Image</label>
                                 <input type="file" class="form-control" name="image">
@@ -135,41 +137,53 @@ Purchase:
                             </div>
                             <div class="form-group">
                                 <label for="inputAddress2">Description</label>
-                                <input type="text" class="form-control" name="desc" placeholder="Description">
+                                <input type="text" class="form-control" name="detailTwo" placeholder="Description">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Link Name</label>
+                                <input type="text" class="form-control" name="linkNameTwo" placeholder="Link Name">
                             </div>
                             <div class="form-group">
                                 <label for="inputAddress2">Link</label>
-                                <input type="text" class="form-control" name="link" placeholder="Link">
-                            </div>
-                            <div class="form-group">
-                                <label for="inputAddress2">Description</label>
-                                <input type="text" class="form-control" name="descOne" placeholder="Description">
-                            </div>
-                            <div class="form-group">
-                                <label for="inputAddress2">Description Two</label>
-                                <input type="text" class="form-control" name="descTwo" placeholder="Description">
-                            </div>
-                            <div class="form-group">
-                                <label for="inputAddress2">Link Two</label>
-                                <input type="text" class="form-control" name="linkOne" placeholder="Link">
-                            </div>
-                            <div class="form-group">
-                                <label for="inputAddress2">Description Two</label>
-                                <input type="text" class="form-control" name="descThree" placeholder="Description">
-                            </div>
-                            <div class="form-group">
-                                <label for="inputAddress2">Description Three</label>
-                                <input type="text" class="form-control" name="descFour" placeholder="Description">
-                            </div>
-                            <div class="form-group">
-                                <label for="inputAddress2">Link Three</label>
                                 <input type="text" class="form-control" name="linkTwo" placeholder="Link">
                             </div>
                             <div class="form-group">
-                                <label for="inputAddress2">Description Three</label>
-                                <input type="text" class="form-control" name="descFive" placeholder="Description">
+                                <label for="inputAddress2">Description</label>
+                                <input type="text" class="form-control" name="detailThree" placeholder="Description">
                             </div>
-                            <button type="submit" class="btn btn-primary">Sign in</button>
+                            <div class="form-group">
+                                <label for="inputAddress2">Link Name</label>
+                                <input type="text" class="form-control" name="LinkNameThree" placeholder="Link Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Link</label>
+                                <input type="text" class="form-control" name="linkThree" placeholder="Link">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Description</label>
+                                <input type="text" class="form-control" name="detailTitleOneLink" placeholder="Description">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Description</label>
+                                <input type="text" class="form-control" name="detailTitleOne" placeholder="Description">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Description</label>
+                                <input type="text" class="form-control" name="detailTitleTwoLink" placeholder="Description">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Link Name</label>
+                                <input type="text" class="form-control" name="titleTwoLinkName" placeholder="Link Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Link</label>
+                                <input type="text" class="form-control" name="titleTwo" placeholder="Link">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Description</label>
+                                <input type="text" class="form-control" name="detailTitleTwo" placeholder="Description">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Post</button>
                         </form>
                     </div>
                 </div>

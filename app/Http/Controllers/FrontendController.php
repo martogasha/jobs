@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
 use App\Models\Job;
 use App\Models\Product;
 use Illuminate\Http\Request;
@@ -38,7 +39,10 @@ class FrontendController extends Controller
     public function news(){
         return view('frontend.news');
     }
-    public function newsDetail(){
-        return view('frontend.newsDetails');
+    public function newsDetail($id){
+        $detail = Blog::find($id);
+        return view('frontend.newsDetails',[
+            'detail'=>$detail
+        ]);
     }
 }

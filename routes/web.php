@@ -34,6 +34,7 @@ Route::get('postNews', [AdminController::class, 'postNews']);
 Route::get('postProduct', [AdminController::class, 'postProduct']);
 Route::post('pProduct', [AdminController::class, 'pProduct']);
 Route::post('deleteJob', [AdminController::class, 'deleteJob']);
+Route::post('postNew', [AdminController::class, 'postNew']);
 Route::get('adminNews', [AdminController::class, 'adminNews']);
 Route::get('getJob', [AdminController::class, 'getJob']);
 
@@ -44,7 +45,7 @@ Route::get('cvs', [FrontendController::class, 'cvs']);
 Route::get('shop', [FrontendController::class, 'shop']);
 Route::get('shopDetail/{id}', [FrontendController::class, 'shopDetail']);
 Route::get('news', [FrontendController::class, 'news']);
-Route::get('newsDetail', [FrontendController::class, 'newsDetail']);
+Route::get('newsDetail/{id}', [FrontendController::class, 'newsDetail']);
 
 
 

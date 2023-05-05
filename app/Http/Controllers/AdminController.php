@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
 use App\Models\Job;
 use App\Models\Product;
 use App\Models\User;
@@ -33,6 +34,39 @@ class AdminController extends Controller
     }
     public function postJob(){
         return view('backend.postJob');
+    }
+    public function postNews(){
+        return view('backend.postNews');
+    }
+    public function postNew(Request $request){
+        $pictures = new Blog();
+        $pictures->title = $request->input('title');
+        $pictures->detail = $request->input('summary');
+        $pictures->detailTwo = $request->input('detailTwo');
+        $pictures->linkNameTwo = $request->input('linkNameTwo');
+        $pictures->linkTwo = $request->input('linkTwo');
+        $pictures->detailTitleOneLink = $request->input('detailTitleOneLink');
+        $pictures->LinkNameThree = $request->input('LinkNameThree');
+        $pictures->linkThree = $request->input('linkThree');
+        $pictures->detailTitleOne = $request->input('detailTitleOne');
+        $pictures->detailTitleTwoLink = $request->input('detailTitleTwoLink');
+        $pictures->titleTwo = $request->input('titleTwo');
+        $pictures->titleTwoLinkName = $request->input('titleTwoLinkName');
+        $pictures->detailTitleTwo = $request->input('detailTitleTwo');
+        $pictures->user_id = Auth::id();
+
+        if ($request->image) {
+            $file = $request->file('image');
+            $extension = $file->getClientOriginalName();
+            $filename = time() . '.' . $extension;
+            $file->move('uploads/product/', $filename);
+            $pictures->image = $filename;
+        }
+
+        $pictures->save();
+
+
+        return redirect()->back()->with('success','Blog Added Successfully');
     }
     public function pJob(Request $request){
         $jo = new Job();
@@ -90,10 +124,10 @@ class AdminController extends Controller
         return redirect(url('adminJobs'))->with('success','JOB POSTED SUCCESS');
     }
     public function adminNews(){
-        return view('backend.adminNews');
-    }
-    public function postNews(){
-        return view('backend.postNews');
+        $blogs = Blog::where('user_id',Auth::id())->get();
+        return view('backend.adminNews',[
+            'blogs'=>$blogs
+        ]);
     }
     public function postProduct(){
         return view('backend.postProduct');
