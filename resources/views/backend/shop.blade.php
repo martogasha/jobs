@@ -133,20 +133,20 @@ Purchase:
                 <div class="hs_blog_right_sidebar_main_wrapper">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="hs_blog_right_search_wrapper">
+                                <input type="text" placeholder="Products Search..">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="hs_blog_right_cate_list_heading_wrapper">
-                                <h2>CATEGORIES</h2>
+                                <h2>TOP CATEGORIES</h2>
                             </div>
                             <div class="hs_blog_right_cate_list_cont_wrapper">
                                 <ul>
-                                    <li><a href="#">Yantra</a></li>
-                                    <li><a href="#">Gemstone</a></li>
-                                    <li><a href="#">Books</a></li>
-                                    <li><a href="#">Workshop DVD</a></li>
-                                    <li><a href="#">Pendal</a></li>
-                                    <li><a href="#">Puja Accessories</a></li>
-                                    <li><a href="#">Religion Spiritual Gems Stones</a></li>
-                                    <li><a href="#">Feng Shui Products</a></li>
-                                    <li><a href="#">Lucky Stones</a></li>
+                                    <li><a href="#">Newest</a></li>
+                                    <li><a href="#">Most Viewed</a></li>
+                                    <li><a href="#">Popular</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -163,7 +163,7 @@ Purchase:
                                         <div class="row">
                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="hs_kd_first_sec_wrapper">
-                                                    <h2>390+ Produts Search</h2>
+                                                    <h2>{{\App\Models\Product::where('user_id',\Illuminate\Support\Facades\Auth::id())->count()}}+ Produts Search</h2>
                                                     <h4><span></span></h4>
                                                 </div>
                                             </div>
