@@ -16,7 +16,7 @@ Purchase:
 <!-- Mirrored from www.webstrot.com/html/horoscope/light_version/shop.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Apr 2023 03:57:50 GMT -->
 <head>
     <meta charset="utf-8" />
-    <title>Our Shop</title>
+    <title>Our Shop - Briden Jobs Alert</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="description" content="Horoscope" />
     <meta name="keywords" content="Horoscope" />
