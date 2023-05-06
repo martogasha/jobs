@@ -214,15 +214,18 @@ Purchase:
                                 <h2>Recent News</h2>
                             </div>
                             @foreach($bls as $bl)
-                                <div class="hs_blog_right_recnt_cont_wrapper">
-                                    <div class="hs_footer_ln_img_wrapper">
-                                        <img src="{{asset('uploads/product/'.$bl->image)}}" class="img-responsive" alt="ln_img" />
+                                <a href="{{url('newsDetail',$bl->id)}}">
+                                    <div class="hs_blog_right_recnt_cont_wrapper">
+                                        <div class="hs_footer_ln_img_wrapper">
+                                            <img src="{{asset('uploads/product/'.$bl->image)}}" class="img-responsive" alt="ln_img" />
+                                        </div>
+                                        <div class="hs_footer_ln_cont_wrapper">
+                                            <h4>{{\Illuminate\Support\Str::of($bl->title)->words(7)}}...</h4>
+                                            <p>{{$bl->created_at->diffForHumans()}}</p>
+                                        </div>
                                     </div>
-                                    <div class="hs_footer_ln_cont_wrapper">
-                                        <h4>{{\Illuminate\Support\Str::of($bl->title)->words(7)}}...</h4>
-                                        <p>{{$bl->created_at->diffForHumans()}}</p>
-                                    </div>
-                                </div>
+                                </a>
+
 
                             @endforeach
                         </div>

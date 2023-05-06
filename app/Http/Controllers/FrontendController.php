@@ -12,7 +12,7 @@ class FrontendController extends Controller
 {
     public function jobs(){
         $jobs = Job::paginate(4);
-        $bls = Blog::where('user_id',Auth::id())->orderBy('id','DESC')->paginate(4);
+        $bls = Blog::orderBy('id','DESC')->paginate(4);
         return view('frontend.jobs',[
             'jobs'=>$jobs,
             'bls'=>$bls
@@ -20,8 +20,12 @@ class FrontendController extends Controller
     }
     public function jobDetail($id){
         $job = Job::find($id);
+        $bls = Blog::orderBy('id','DESC')->paginate(4);
+
         return view('frontend.jobDetail',[
-            'job'=>$job
+            'job'=>$job,
+            'bls'=>$bls
+
         ]);
     }
     public function cvs(){
@@ -40,8 +44,8 @@ class FrontendController extends Controller
         ]);
     }
     public function news(){
-        $blogs = Blog::where('user_id',Auth::id())->orderBy('id','DESC')->paginate(4);
-        $bls = Blog::where('user_id',Auth::id())->orderBy('id','ASC')->paginate(5);
+        $blogs = Blog::orderBy('id','DESC')->paginate(4);
+        $bls = Blog::orderBy('id','ASC')->paginate(5);
         return view('frontend.news',[
             'blogs'=>$blogs,
             'bls'=>$bls
@@ -50,8 +54,11 @@ class FrontendController extends Controller
     }
     public function newsDetail($id){
         $detail = Blog::find($id);
+        $bls = Blog::orderBy('id','DESC')->paginate(4);
         return view('frontend.newsDetails',[
-            'detail'=>$detail
+            'detail'=>$detail,
+            'bls'=>$bls,
+
         ]);
     }
 }

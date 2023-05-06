@@ -242,6 +242,7 @@ Purchase:
                                 <h2>Recent News</h2>
                             </div>
                             @foreach($bls as $bl)
+                                <a href="{{url('newsDetail',$bl->id)}}">
                                 <div class="hs_blog_right_recnt_cont_wrapper">
                                     <div class="hs_footer_ln_img_wrapper">
                                         <img src="{{asset('uploads/product/'.$bl->image)}}" class="img-responsive" alt="ln_img" />
@@ -251,6 +252,7 @@ Purchase:
                                         <p>{{$bl->created_at->diffForHumans()}}</p>
                                     </div>
                                 </div>
+                                </a>
 
                             @endforeach
                         </div>
