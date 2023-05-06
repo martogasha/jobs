@@ -110,7 +110,7 @@ Purchase:
                     <td>{{$user->first_name}} {{$user->last_name}}</td>
                     <td>{{$user->email}}</td>
                     <td>{{\App\Models\Job::where('user_id',$user->id)->count()}}</td>
-                    <td>0</td>
+                    <td>{{\App\Models\Blog::where('user_id',\Illuminate\Support\Facades\Auth::id())->count()}}</td>
                 </tr>
             @endforeach
 
