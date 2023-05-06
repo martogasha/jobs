@@ -163,7 +163,7 @@ Purchase:
                                         <div class="row">
                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="hs_kd_first_sec_wrapper">
-                                                    <h2>{{\App\Models\Product::where('user_id',\Illuminate\Support\Facades\Auth::id())->count()}}+ Produts Search</h2>
+                                                    <h2>{{\App\Models\Product::where('user_id',\Illuminate\Support\Facades\Auth::id())->count()}}+ Produts</h2>
                                                     <h4><span></span></h4>
                                                 </div>
                                             </div>
