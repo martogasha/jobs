@@ -142,7 +142,7 @@ Purchase:
                                             <h2>{{\Illuminate\Support\Str::of($blog->title)->words(7)}}...</h2>
                                             <h4><span></span></h4>
                                             <p>{{\Illuminate\Support\Str::of($blog->detail)->words(20)}}...</p>
-                                            <h5><a href="{{url('newsDetail',$blog->id)}}">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
+                                            <h5><a href="{{url('newsDetail',['id'=>$blog->id,'category'=>str_slug($blog->title)])}}">Read More <i class="fa fa-long-arrow-right"></i></a></h5>
                                         </div>
                                     </div>
                                     <div class="hs_blog_box1_bottom_cont_main_wrapper">
