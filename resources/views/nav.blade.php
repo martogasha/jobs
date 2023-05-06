@@ -6,10 +6,6 @@
             </div>
         </div>
         <div class="hs_header_logo_right">
-            <div class="hs_top_user_profile" data-toggle="modal" data-target="#myModal">
-                <img src="{{asset('images/header/avatar.jpg')}}" alt="user">
-                <p><i class="fa fa-plus"></i></p>
-            </div>
             <div class="hs_header_add_wrapper hidden-xs hidden-sm">
                 <div class="hs_header_add_icon">
                     <i class="fa fa-home"></i>
