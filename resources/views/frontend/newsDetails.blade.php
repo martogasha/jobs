@@ -279,7 +279,44 @@ Purchase:
 <script src="{{asset('js/custom.js')}}"></script>
 <!--main js file end-->
 </body>
+<script>
+    $(document).ready(function () {
+        $('#register').hide();
 
+    })
+    $('#registerButton').click(function () {
+        $('#login').hide();
+        $('#register').show();
+
+    })
+    $('#loginButton').click(function () {
+        $('#register').hide();
+        $('#login').show();
+
+    })
+    $('#regButton').click(function () {
+        var first_name = $('#first_name').val();
+        var last_name = $('#last_name').val();
+        var email = $('#registerEmail').val();
+        var password = $('#registerPassword').val();
+        $.ajax({
+            type:"get",
+            url:"{{url('Register')}}",
+            data:{'first_name':first_name,'last_name':last_name,'email':email,'password':password,},
+            success:function (data) {
+                $('#register').hide();
+                $('#login').show();
+            },
+            error:function (error) {
+                console.log(error)
+                alert('error')
+
+            }
+
+        });
+
+    });
+</script>
 
 <!-- Mirrored from www.webstrot.com/html/horoscope/light_version/blog_single.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Apr 2023 03:58:20 GMT -->
 </html>
