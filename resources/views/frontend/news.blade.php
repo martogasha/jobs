@@ -16,7 +16,7 @@ Purchase:
 <!-- Mirrored from www.webstrot.com/html/horoscope/light_version/blog_categories.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Apr 2023 03:58:04 GMT -->
 <head>
     <meta charset="utf-8" />
-    <title>Blog Categories</title>
+    <title>News Categories</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="description" content="Horoscope" />
     <meta name="keywords" content="Horoscope" />
