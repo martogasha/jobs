@@ -102,6 +102,7 @@ Purchase:
                 <th scope="col">Email</th>
                 <th scope="col">Jobs Posted</th>
                 <th scope="col">Products Posted</th>
+                <th scope="col">News Posted</th>
             </tr>
             </thead>
             <tbody>
@@ -110,6 +111,7 @@ Purchase:
                     <td>{{$user->first_name}} {{$user->last_name}}</td>
                     <td>{{$user->email}}</td>
                     <td>{{\App\Models\Job::where('user_id',$user->id)->count()}}</td>
+                    <td>{{\App\Models\Product::where('user_id',\Illuminate\Support\Facades\Auth::id())->count()}}</td>
                     <td>{{\App\Models\Blog::where('user_id',\Illuminate\Support\Facades\Auth::id())->count()}}</td>
                 </tr>
             @endforeach
