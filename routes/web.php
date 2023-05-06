@@ -47,7 +47,7 @@ Route::get('cvs', [FrontendController::class, 'cvs']);
 Route::get('shop', [FrontendController::class, 'shop']);
 Route::get('shopDetail/{id}', [FrontendController::class, 'shopDetail']);
 Route::get('news', [FrontendController::class, 'news']);
-Route::get('newsDetail/{id}', [FrontendController::class, 'newsDetail']);
+Route::get('newsDetail/{id}/{category}', [FrontendController::class, 'newsDetail']);
 
 
 
