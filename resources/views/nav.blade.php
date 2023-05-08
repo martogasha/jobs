@@ -2,7 +2,7 @@
     <div class="container">
         <div class="hs_header_logo_left hidden-xs">
             <div class="hs_logo_wrapper">
-                <a href="{{url('/')}}"><img src="{{asset('images/header/lo.jpg')}}" class="img-responsive" alt="logo" title="Logo"/></a>
+                <a href="{{url('/')}}"><img src="{{asset('images/header/1.jpg')}}" class="img-responsive" alt="logo" title="Logo"/></a>
             </div>
         </div>
         <div class="hs_header_logo_right">
