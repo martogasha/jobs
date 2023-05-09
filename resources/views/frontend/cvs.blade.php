@@ -193,7 +193,7 @@ Purchase:
         </h5>
     </div>
     <div class="hs_counter_cont_wrapper">
-        <span style="font-size: 30px;color: black">1,800 +</span>
+        <span style="font-size: 30px;color: black">1,800</span>
         <h5 class="con3">Order <br> CVs Completed
         </h5>
     </div>
