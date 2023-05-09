@@ -1,14 +1,14 @@
-<header class="mobail_menu visible-xs"  style="background-color: darkorange">
+<header class="mobail_menu visible-xs" style="background-color: white">
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-6 col-sm-6">
                 <div class="hs_logo">
-                    <a href="{{url('/')}}"><img src="images/header/lo.jpg" class="img-responsive" alt="logo" title="Logo"/></a>
+                    <a href="{{url('/')}}"><img src="images/header/1.jpg" class="img-responsive" alt="logo" title="Logo"/></a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-6">
                 <div class="cd-dropdown-wrapper">
-                    <a class="house_toggle" href="#0">
+                    <a class="house_toggle" href="#0" style="background-color: darkorange">
                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              width="511.63px" height="511.631px" viewBox="0 0 511.63 511.631" style="enable-background:new 0 0 511.63 511.631;"
                              xml:space="preserve">

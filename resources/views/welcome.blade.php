@@ -564,48 +564,28 @@ Image credits: unsplash.com
 <!-- hs Counter wrapper Start -->
 <div class="hs_counter_main_wrapper">
     <div class="hs_counter_cont_wrapper hs_counter_cont_wrapper1">
-        <div class="count-description">
-            <div class="hs_main_cycle_main">
-                <span class="timer">25</span>
-            </div>
-            <h5 class="con1">Trusted by<br> Million Clients</h5>
-        </div>
+        <span style="font-size: 30px;color: black">90%</span>
+            <h5 class="con1">Job<br>  success rate</h5>
     </div>
     <div class="hs_counter_cont_wrapper">
-        <div class="count-description">
-            <div class="hs_main_cycle_main">
-                <span class="timer">73</span>
-            </div>
+        <span style="font-size: 30px;color: black">8</span>
             <h5 class="con2">Years of<br> Experience
             </h5>
-        </div>
     </div>
     <div class="hs_counter_cont_wrapper">
-        <div class="count-description">
-            <div class="hs_main_cycle_main">
-                <span class="timer">45</span>
-            </div>
-            <h5 class="con3">Types of <br> Horoscopes
+        <span style="font-size: 30px;color: black">1,800 +</span>
+            <h5 class="con3">Order <br> CVs Completed
             </h5>
-        </div>
     </div>
     <div class="hs_counter_cont_wrapper">
-        <div class="count-description">
-            <div class="hs_main_cycle_main">
-                <span class="timer">99</span>
-            </div>
-            <h5 class="con4">Qualified <br> Astrologers
+        <span style="font-size: 30px;color: black">5</span>
+            <h5 class="con4">Qualified <br> Writers
             </h5>
-        </div>
     </div>
     <div class="hs_counter_cont_wrapper hs_counter_cont_wrapper5">
-        <div class="count-description">
-            <div class="hs_main_cycle_main">
-                <span class="timer">89</span>
-            </div>
-            <h5 class="con4">Sucess<br> Horoscope
+                <span style="font-size: 30px;color: black">100,0000 +</span>
+            <h5 class="con4">Trusted<br>  by Thousands of Clients
             </h5>
-        </div>
     </div>
 </div>
 <!-- hs Counter wrapper End -->

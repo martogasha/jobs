@@ -19,7 +19,7 @@
                     <p>Need help with CV review/writing, online cyber or finding a job. <a href="" style="color: whitesmoke" data-toggle="modal" data-target="#myModal">Login</a> </p>
                     <div class="hs_footer_help_btn">
                         <ul>
-                            <li><a href="#" class="hs_btn_hover">Contact Us</a></li>
+                            <li><a href="https://wa.me/0714466088" class="hs_btn_hover">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
