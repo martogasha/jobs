@@ -120,31 +120,51 @@ Purchase:
             <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                 <div class="hs_blog_left_sidebar_main_wrapper">
                     <div class="row">
-                        <form action="{{url('pJob')}}" method="post">
+                        <form action="{{url('pJob')}}" method="post" enctype="multipart/form-data">
                             @csrf
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Job Title</label>
-                                    <input type="text" class="form-control" name="job_title" placeholder="Job Title">
+                                    <input type="text" class="form-control" name="job_title" placeholder="Job Title" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputPassword4">Company</label>
-                                    <input type="text" class="form-control" name="company" placeholder="Company">
+                                    <input type="text" class="form-control" name="company" placeholder="Company" required>
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="inputEmail4">Job Location</label>
-                                    <input type="text" class="form-control" name="job_location" placeholder="Job Location">
+                                    <input type="text" class="form-control" name="job_location" placeholder="Job Location" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputPassword4">Position</label>
-                                    <input type="text" class="form-control" name="job_position" placeholder="Position">
+                                    <input type="text" class="form-control" name="job_position" placeholder="Position" required>
                                 </div>
                             </div>
                             <div class="form-group">
+                                <label for="inputAddress">Company Logo</label>
+                                <input type="file" class="form-control" name="company_logo" placeholder="Company Logo" required>
+                            </div>
+                            <div class="form-group">
                                 <label for="inputAddress">Country</label>
-                                <input type="text" class="form-control" name="country" placeholder="Country">
+                                <input type="text" class="form-control" name="country" placeholder="Country" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Title</label>
+                                <input type="text" class="form-control" name="title" placeholder="Title">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Description</label>
+                                <input type="text" class="form-control" name="desc" placeholder="Description">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Title</label>
+                                <input type="text" class="form-control" name="title_one" placeholder="Title">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Description</label>
+                                <input type="text" class="form-control" name="desc_one" placeholder="Description">
                             </div>
 
                                         <div class="form-group">
@@ -157,8 +177,24 @@ Purchase:
                                                 </table>
                                         </div>
                             <div class="form-group">
+                                <label for="inputAddress2">Title</label>
+                                <input type="text" class="form-control" name="title_two" placeholder="Title">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Description</label>
+                                <input type="text" class="form-control" name="desc_two" placeholder="Description">
+                            </div>
+                            <div class="form-group">
                                 <label for="inputAddress2">Qualifications and Skills</label>
                                 <input type="text" class="form-control" name="job_skills" placeholder="Qualifications and Skills">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Title</label>
+                                <input type="text" class="form-control" name="title_three" placeholder="Title">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Description</label>
+                                <input type="text" class="form-control" name="desc_three" placeholder="Description">
                             </div>
                             <div class="form-group">
                                 <label for="inputAddress2">How To apply</label>
@@ -166,7 +202,7 @@ Purchase:
                             </div>
                             <div class="form-group">
                                 <label for="inputAddress2">Link</label>
-                                <input type="text" class="form-control" name="link" placeholder="Link">
+                                <input type="text" class="form-control" name="link" placeholder="https://link (usisahau kuweka https)">
                             </div>
                             <button type="submit" class="btn btn-primary">POST</button>
                         </form>

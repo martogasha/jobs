@@ -141,7 +141,7 @@ Purchase:
                                             <p>{{$job->job_desc}}</p>
                                             <div class="comments">
                                                 <div class="comment">
-                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/LEGO_logo.svg"/>
+                                                    <img src="{{asset('uploads/product/'.$job->company_logo)}}" alt="blog_img">
                                                     <div class="text">
                                                         <a href=""><b>{{$job->company}}</b></a>
                                                     </div>

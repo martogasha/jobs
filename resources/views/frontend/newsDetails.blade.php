@@ -16,7 +16,7 @@ Purchase:
 <!-- Mirrored from www.webstrot.com/html/horoscope/light_version/blog_categories.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Apr 2023 03:58:04 GMT -->
 <head>
     <meta charset="utf-8" />
-    <title>Blog Categories</title>
+    <title>{{$detail->title}} - Briden Jobs Alert</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="description" content="Horoscope" />
     <meta name="keywords" content="Horoscope" />
@@ -163,21 +163,21 @@ Purchase:
                                     <p><b>{{$detail->detail}}</b></p>
 
                                     <br>
-                                    <img src="{{asset('uploads/product/'.$detail->image)}}" alt="" />
+                                    <img src="{{asset('uploads/product/'.$detail->image)}}" alt="{{$detail->title}}" />
 
                                 </div>
                                 <div class="hs_blog_box1_cont_main_wrapper">
                                     <div class="hs_blog_cont_heading_wrapper">
                                         <h2>{{$detail->title}}</h2>
                                         <h4><span></span></h4>
-                                        <p>{{$detail->detailTwo}} <a href="{{$detail->linkTwo}}" style="color: red">{{$detail->linkNameTwo}}</a> {{$detail->detailThree}}</p>
+                                        <p>{{$detail->detailTwo}} <a href="{{$detail->linkTwo}}" style="color: red" target="_blank">{{$detail->linkNameTwo}}</a> {{$detail->detailThree}}</p>
 
 
                                     </div>
                                     <div class="row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="hs_blog_single_first_cont_wrapper">
-                                                <p>{{$detail->detailTitleOneLink}} <a href="{{$detail->linkThree}}" style="color: red">{{$detail->LinkNameThree}}</a> {{$detail->detailTitleOne}}</p>
+                                                <p>{{$detail->detailTitleOneLink}} <a href="{{$detail->linkThree}}" style="color: red" target="_blank">{{$detail->LinkNameThree}}</a> {{$detail->detailTitleOne}}</p>
 
                                             </div>
                                         </div>
@@ -185,7 +185,7 @@ Purchase:
                                     <div class="row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="hs_blog_single_first_cont_wrapper">
-                                                <p>{{$detail->detailTitleTwoLink}} <a href="{{$detail->titleTwo}}" style="color: red">{{$detail->titleTwoLinkName}}</a> {{$detail->detailTitleTwo}}</p>
+                                                <p>{{$detail->detailTitleTwoLink}} <a href="{{$detail->titleTwo}}" style="color: red" target="_blank">{{$detail->titleTwoLinkName}}</a> {{$detail->detailTitleTwo}}</p>
 
                                             </div>
                                         </div>

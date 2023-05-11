@@ -181,6 +181,56 @@ Purchase:
                                 </ul>
                             </div>
                         </div>
+                        @if(isset($job->title))
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="hs_pr_tabs_menu_cont_main_wrapper">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="tab-content">
+                                                <div id="home" class="tab-pane fade in active">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <div class="hs_pr_tabs_cont1_wrapper">
+                                                                <h2>{{$job->title}}</h2>
+                                                                <p>{{$job->desc}}</p>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        @endif
+                        @if(isset($job->title_one))
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="hs_pr_tabs_menu_cont_main_wrapper">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="tab-content">
+                                                <div id="home" class="tab-pane fade in active">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <div class="hs_pr_tabs_cont1_wrapper">
+                                                                <h2>{{$job->title_one}}</h2>
+                                                                <p>{{$job->desc_one}}</p>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        @endif
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="hs_pr_tabs_menu_cont_main_wrapper">
                                 <div class="row">
@@ -326,6 +376,31 @@ Purchase:
                                 </div>
                             </div>
                         </div>
+                        @if(isset($job->title_two))
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="hs_pr_tabs_menu_cont_main_wrapper">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="tab-content">
+                                                <div id="home" class="tab-pane fade in active">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <div class="hs_pr_tabs_cont1_wrapper">
+                                                                <h2>{{$job->title_two}}</h2>
+                                                                <p>{{$job->desc_two}}</p>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        @endif
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="hs_pr_tabs_menu_cont_main_wrapper">
                                 <div class="row">
@@ -348,6 +423,31 @@ Purchase:
                                 </div>
                             </div>
                         </div>
+                        @if($job->title_three)
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="hs_pr_tabs_menu_cont_main_wrapper">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="tab-content">
+                                                <div id="home" class="tab-pane fade in active">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <div class="hs_pr_tabs_cont1_wrapper">
+                                                                <h2>{{$job->title_three}}</h2>
+                                                                <p>{{$job->desc_three}}</p>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        @endif
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="hs_pr_tabs_menu_cont_main_wrapper">
                                 <div class="row">
@@ -359,7 +459,7 @@ Purchase:
                                                         <div class="hs_pr_tabs_cont1_wrapper">
                                                             <h2>How To Apply</h2>
                                                             <p>{{$job->how_to_apply}}</p>
-                                                            <p>{{$job->link}}</p>
+                                                            <p><a href="{{$job->link}}" target="_blank">{{$job->link}}</a></p>
                                                         </div>
                                                     </div>
 

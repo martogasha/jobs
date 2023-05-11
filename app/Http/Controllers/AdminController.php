@@ -119,7 +119,24 @@ class AdminController extends Controller
         $jo->link = $request->input('link');
         $jo->company = $request->input('company');
         $jo->country = $request->input('country');
+        $jo->title = $request->input('title');
+        $jo->desc = $request->input('desc');
+        $jo->title_one = $request->input('title_one');
+        $jo->desc_one = $request->input('desc_one');
+        $jo->title_two = $request->input('title_two');
+        $jo->desc_two = $request->input('desc_two');
+        $jo->title_three = $request->input('title_three');
+        $jo->desc_three = $request->input('desc_three');
         $jo->user_id = Auth::id();
+
+        if ($request->company_logo) {
+            $file = $request->file('company_logo');
+            $extension = $file->getClientOriginalName();
+            $filename = time() . '.' . $extension;
+            $file->move('uploads/product/', $filename);
+            $jo->company_logo = $filename;
+        }
+
         $jo->save();
         return redirect(url('adminJobs'))->with('success','JOB POSTED SUCCESS');
     }

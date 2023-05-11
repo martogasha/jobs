@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Auth;
 class FrontendController extends Controller
 {
     public function jobs(){
-        $jobs = Job::paginate(4);
+        $jobs = Job::orderBy('id','DESC')->paginate(4);
         $bls = Blog::orderBy('id','DESC')->paginate(4);
         return view('frontend.jobs',[
             'jobs'=>$jobs,

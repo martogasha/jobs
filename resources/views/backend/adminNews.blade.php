@@ -16,7 +16,7 @@ Purchase:
 <!-- Mirrored from www.webstrot.com/html/horoscope/light_version/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Apr 2023 03:54:50 GMT -->
 <head>
     <meta charset="utf-8" />
-    <title>Horoscope Responsive HTML Template</title>
+    <title>Admin News</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="description" content="Horoscope" />
     <meta name="keywords" content="Horoscope" />
@@ -136,6 +136,7 @@ Purchase:
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="hs_blog_box1_main_wrapper">
                                     <div class="hs_blog_box1_img_wrapper">
+                                        <img src="{{asset('uploads/product/'.$blog->image)}}" alt="blog_img">
                                     </div>
                                     <div class="hs_blog_box1_cont_main_wrapper">
                                         <div class="hs_blog_cont_heading_wrapper">

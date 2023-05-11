@@ -25,6 +25,15 @@ class CreateJobsTable extends Migration
             $table->string('company');
             $table->integer('user_id');
             $table->string('country');
+            $table->string('title')->nullable();
+            $table->longText('desc')->nullable();
+            $table->string('title_one')->nullable();
+            $table->longText('desc_one')->nullable();
+            $table->string('title_two')->nullable();
+            $table->longText('desc_two')->nullable();
+            $table->string('title_three')->nullable();
+            $table->longText('desc_three')->nullable();
+            $table->mediumText('company_logo')->nullable();
             $table->timestamps();
         });
     }

@@ -167,12 +167,12 @@ Purchase:
                                 <div class="hs_blog_box1_main_wrapper">
                                     <div class="hs_blog_box1_cont_main_wrapper">
                                         <div class="hs_blog_cont_heading_wrapper">
-                                            <a href="{{url('jobDetail',$job->id)}}"><h2>{{$job->job_title  }}</h2></a>
+                                            <a href="{{url('jobDetail',$job->id)}}"><h2>{{$job->job_title}}</h2></a>
                                             <h4><span></span></h4>
                                             <p>{{$job->job_desc}}</p>
                                             <div class="comments">
                                                 <div class="comment">
-                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/LEGO_logo.svg"/>
+                                                    <img src="{{asset('uploads/product/'.$job->company_logo)}}" alt="{{$job->job_title}}">
                                                     <div class="text">
                                                         <a href="{{url('jobDetail',$job->id)}}"><b>{{$job->company}}</b></a>
                                                     </div>

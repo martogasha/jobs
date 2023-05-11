@@ -165,8 +165,7 @@ Purchase:
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="hs_blog_box1_main_wrapper">
                                     <div class="hs_blog_box1_img_wrapper">
-                                        <img src="{{asset('uploads/product/'.$blog->image)}}" alt="blog_img">
-
+                                        <img src="{{asset('uploads/product/'.$blog->image)}}" alt="{{$blog->title}}">
                                     </div>
                                     <div class="hs_blog_box1_cont_main_wrapper">
                                         <div class="hs_blog_cont_heading_wrapper">
