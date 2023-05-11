@@ -583,7 +583,7 @@ Image credits: unsplash.com
             </h5>
     </div>
     <div class="hs_counter_cont_wrapper hs_counter_cont_wrapper5">
-                <span style="font-size: 30px;color: black">100,0000 +</span>
+                <span style="font-size: 30px;color: black">100,000 +</span>
             <h5 class="con4">Trusted<br>  by Thousands of Clients
             </h5>
     </div>

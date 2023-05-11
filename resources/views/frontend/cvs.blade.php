@@ -184,28 +184,48 @@ Purchase:
 <!-- hs Counter wrapper Start -->
 <div class="hs_counter_main_wrapper">
     <div class="hs_counter_cont_wrapper hs_counter_cont_wrapper1">
-        <span style="font-size: 30px;color: black">90%</span>
-        <h5 class="con1">Job<br>  success rate</h5>
+        <div class="count-description">
+            <div class="hs_main_cycle_main">
+                <span class="timer">90</span>
+            </div>
+            <h5 class="con1">Job<br>  success rate (%)</h5>
+        </div>
     </div>
     <div class="hs_counter_cont_wrapper">
-        <span style="font-size: 30px;color: black">8</span>
-        <h5 class="con2">Years of<br> Experience
-        </h5>
+        <div class="count-description">
+            <div class="hs_main_cycle_main">
+                <span class="timer">8</span>
+            </div>
+            <h5 class="con2">Years of<br> Experience
+            </h5>
+        </div>
     </div>
     <div class="hs_counter_cont_wrapper">
-        <span style="font-size: 30px;color: black">1,800</span>
-        <h5 class="con3">Order <br> CVs Completed
-        </h5>
+        <div class="count-description">
+            <div class="hs_main_cycle_main">
+                <span class="timer" style="font-size: 15px">1800</span>
+            </div>
+            <h5 class="con3">Order <br> CVs Completed
+            </h5>
+        </div>
     </div>
     <div class="hs_counter_cont_wrapper">
-        <span style="font-size: 30px;color: black">5</span>
-        <h5 class="con4">Qualified <br> Writers
-        </h5>
+        <div class="count-description">
+            <div class="hs_main_cycle_main">
+                <span class="timer">5</span>
+            </div>
+            <h5 class="con4">Qualified <br> Writers
+            </h5>
+        </div>
     </div>
     <div class="hs_counter_cont_wrapper hs_counter_cont_wrapper5">
-        <span style="font-size: 30px;color: black">100,0000 +</span>
-        <h5 class="con4">Trusted<br>  by Thousands of Clients
-        </h5>
+        <div class="count-description">
+            <div class="hs_main_cycle_main">
+                <span class="timer" style="font-size: 15px">100000</span>
+            </div>
+            <h5 class="con4">Trusted<br>  by Thousands of Clients
+            </h5>
+        </div>
     </div>
 </div>
 <!-- hs Counter wrapper End -->

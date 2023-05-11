@@ -28,9 +28,12 @@
                 <div class="hs_footer_contact_wrapper">
                     <h2>Newsletter</h2>
                     <p>Subscribe to our Newsletter to get latest updates</p>
-                    <div class="hs_footer_contact_input_wrapper">
-                        <input type="text" placeholder="Email Address..."><i class="fa fa-envelope"></i>
-                    </div>
+                    <form action="">
+                        <div class="hs_footer_contact_input_wrapper">
+                            <input type="text" placeholder="Email Address..."><i class="fa fa-envelope" id="submitEmail"></i>
+                        </div>
+                    </form>
+
                 </div>
             </div>
         </div>
