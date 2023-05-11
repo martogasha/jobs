@@ -777,6 +777,7 @@ Image credits: unsplash.com
 <!-- hs bottom footer wrapper End -->
 <!--main js file start-->
 <script data-cfasync="false" src="https://www.webstrot.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery_min.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5H8GVS8P2S"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/modernizr.js"></script>
 <script src="js/jquery.menu-aim.js"></script>
@@ -791,6 +792,12 @@ Image credits: unsplash.com
 <!--main js file end-->
 </body>
 <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5H8GVS8P2S');
+
     $(document).ready(function () {
         $('#register').hide();
 
