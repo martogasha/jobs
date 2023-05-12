@@ -203,7 +203,7 @@ Purchase:
     <div class="hs_counter_cont_wrapper">
         <div class="count-description">
             <div class="hs_main_cycle_main">
-                <span class="timer" style="font-size: 15px">1800</span>
+                <span class="timer">1800</span>
             </div>
             <h5 class="con3">Order <br> CVs Completed
             </h5>
@@ -221,7 +221,7 @@ Purchase:
     <div class="hs_counter_cont_wrapper hs_counter_cont_wrapper5">
         <div class="count-description">
             <div class="hs_main_cycle_main">
-                <span class="timer" style="font-size: 15px">100000</span>
+                <span class="timer">10000</span>
             </div>
             <h5 class="con4">Trusted<br>  by Thousands of Clients
             </h5>
