@@ -85,42 +85,9 @@ Purchase:
                 </div>
                 <div class="hs_navi_cart_wrapper">
                     <div class="dropdown-wrapper menu-button">
-                        <a class="menu-button" href="#"><i class="flaticon-shop"></i><span>3</span></a>
+                        <a class="menu-button" href="#"><i class="flaticon-shop"></i></a>
                         <div class="drop-menu">
 
-                            <div class="cc_cart_wrapper1 menu-button">
-                                <div class="cc_cart_img_wrapper">
-                                    <img src="images/content/cart_img.jpg" alt="cart_img" />
-                                </div>
-                                <div class="cc_cart_cont_wrapper">
-                                    <h4><a href="#">Gemstone</a></h4>
-                                    <p>Quantity : 2 × $45</p>
-                                    <h5>$90</h5>
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                </div>
-                            </div>
-                            <div class="cc_cart_wrapper1 menu-button">
-                                <div class="cc_cart_img_wrapper">
-                                    <img src="images/content/cart_img.jpg" alt="cart_img" />
-                                </div>
-                                <div class="cc_cart_cont_wrapper">
-                                    <h4><a href="#">Gemstone</a></h4>
-                                    <p>Quantity : 2 × $45</p>
-                                    <h5>$90</h5>
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                </div>
-                            </div>
-                            <div class="cc_cart_wrapper1 menu-button">
-                                <div class="cc_cart_img_wrapper">
-                                    <img src="images/content/cart_img.jpg" alt="cart_img" />
-                                </div>
-                                <div class="cc_cart_cont_wrapper">
-                                    <h4><a href="#">Gemstone</a></h4>
-                                    <p>Quantity : 2 × $45</p>
-                                    <h5>$90</h5>
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                </div>
-                            </div>
                             <div class="cc_cart_wrapper1 menu-button">
                                 <div class="hs_effect_btn ceckout_btn">
                                     <ul>
