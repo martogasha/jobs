@@ -2825,9 +2825,9 @@ width:100%;
 	border-left:1px dashed #cecece;
 }
 .count-description span{
-	width:65px;
-	height:65px;
-	line-height:65px;
+	width:100px;
+	height:100px;
+	line-height:110px;
 	text-align:center;
 	font-size:28px;
 	color:#ff7e00;
@@ -2841,8 +2841,8 @@ width:100%;
 .hs_main_cycle_main{
 	display:inline-block;
 	border:1px dashed #cecece;
-	width: 85px;
-    height: 85px;
+	width: 120px;
+    height: 120px;
     padding-top: 10px;
 	 -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
