@@ -94,7 +94,7 @@ Purchase:
                         </div>
                     </div>
                 </div>
-            </div>
+                </div>
         </div>
     </div>
 </div>

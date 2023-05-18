@@ -33,10 +33,16 @@ class AdminController extends Controller
         return view('backend.dashboard');
     }
     public function postJob(){
-        return view('backend.postJob');
+        $bls = Blog::orderBy('id','DESC')->paginate(4);
+        return view('backend.postJob',[
+            'bls'=>$bls
+        ]);
     }
     public function postNews(){
-        return view('backend.postNews');
+        $bls = Blog::orderBy('id','DESC')->paginate(4);
+        return view('backend.postNews',[
+            'bls'=>$bls
+        ]);
     }
     public function postNew(Request $request){
         $pictures = new Blog();

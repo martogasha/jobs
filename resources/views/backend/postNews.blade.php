@@ -193,42 +193,20 @@ Purchase:
                     <div class="hs_blog_right_cate_list_heading_wrapper">
                         <h2>Recent News</h2>
                     </div>
-                    <div class="hs_blog_right_recnt_cont_wrapper">
-                        <div class="hs_footer_ln_img_wrapper">
-                            <img src="images/content/blog/b1.jpg" class="img-responsive" alt="ln_img" />
-                        </div>
-                        <div class="hs_footer_ln_cont_wrapper">
-                            <h4>Astrolger Member in the life soltion.</h4>
-                            <p>12 May 2022</p>
-                        </div>
-                    </div>
-                    <div class="hs_blog_right_recnt_cont_wrapper">
-                        <div class="hs_footer_ln_img_wrapper">
-                            <img src="images/content/blog/b2.jpg" class="img-responsive" alt="ln_img" />
-                        </div>
-                        <div class="hs_footer_ln_cont_wrapper">
-                            <h4>Astrolger Member in the life soltion.</h4>
-                            <p>12 May 2022</p>
-                        </div>
-                    </div>
-                    <div class="hs_blog_right_recnt_cont_wrapper">
-                        <div class="hs_footer_ln_img_wrapper">
-                            <img src="images/content/blog/b3.jpg" class="img-responsive" alt="ln_img" />
-                        </div>
-                        <div class="hs_footer_ln_cont_wrapper">
-                            <h4>Astrolger Member in the life soltion.</h4>
-                            <p>12 May 2022</p>
-                        </div>
-                    </div>
-                    <div class="hs_blog_right_recnt_cont_wrapper">
-                        <div class="hs_footer_ln_img_wrapper">
-                            <img src="images/content/blog/b4.jpg" class="img-responsive" alt="ln_img" />
-                        </div>
-                        <div class="hs_footer_ln_cont_wrapper">
-                            <h4>Astrolger Member in the life soltion.</h4>
-                            <p>12 May 2022</p>
-                        </div>
-                    </div>
+                    @foreach($bls as $bl)
+                        <a href="{{url('newsDetail',$bl->id)}}">
+                            <div class="hs_blog_right_recnt_cont_wrapper">
+                                <div class="hs_footer_ln_img_wrapper">
+                                    <img src="{{asset('uploads/product/'.$bl->image)}}" class="img-responsive" alt="ln_img" />
+                                </div>
+                                <div class="hs_footer_ln_cont_wrapper">
+                                    <h4>{{\Illuminate\Support\Str::of($bl->title)->words(7)}}...</h4>
+                                    <p>{{$bl->created_at->diffForHumans()}}</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    @endforeach
                 </div>
 
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 visible-sm visible-xs">
