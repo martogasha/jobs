@@ -2960,7 +2960,6 @@ width:100%;
 .hs_testi_client_main_wrapper{
 	float:right;
 	width:280px;
-	background:#ffffff;
 	margin-top: 70px;
 	-webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -2978,7 +2977,7 @@ width:100%;
 .hs_testi_client_cont_sec{
 	    float: left;
     width: calc(280px - 87px);
-    border: 1px dashed #cecece;
+    border: 1px #cecece;
     margin-top: 13px;
     padding-top: 7px;
     text-align: center;
