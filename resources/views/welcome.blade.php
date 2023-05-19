@@ -604,13 +604,32 @@ Image credits: unsplash.com
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="hs_testi_client_main_wrapper">
-                                        <div class="hs_testi_client_cont_sec">
-                                            <h2>Joan doe</h2>
-                                            <p>Designer</p>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden-xs">
+                                    <div class="hs_testi_cont_main_wrapper hs_testi_cont_main_right_wrapper">
+                                        <div class="hs_testi_cont_inner_wrapper">
+                                            <div class="hs_testi_quote_wrapper">
+                                                <i class="fa fa-quote-left"></i>
+                                            </div>
+                                            <div class="hs_testi_quote_cont_wrapper">
+                                                <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                                            </div>
                                         </div>
-                                        <div class="hs_testi_client_cont_img_sec">
-                                            <img src="images/content/testi_client_img1.jpg" alt="testi_img" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="hs_testi_cont_main_wrapper">
+                                        <div class="hs_testi_cont_inner_wrapper">
+                                            <div class="hs_testi_quote_wrapper">
+                                                <i class="fa fa-quote-left"></i>
+                                            </div>
+                                            <div class="hs_testi_quote_cont_wrapper">
+                                                <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -625,110 +644,10 @@ Image credits: unsplash.com
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="hs_testi_client_main_wrapper hs_testi_client_main_right_wrapper">
-                                        <div class="hs_testi_client_cont_img_sec">
-                                            <img src="images/content/testi_client_img2.jpg" alt="testi_img" />
-                                        </div>
-                                        <div class="hs_testi_client_cont_sec">
-                                            <h2>Joan doe</h2>
-                                            <p>Designer</p>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 hidden-xs">
-                                    <div class="hs_testi_cont_main_wrapper">
-                                        <div class="hs_testi_cont_inner_wrapper">
-                                            <div class="hs_testi_quote_wrapper">
-                                                <i class="fa fa-quote-left"></i>
-                                            </div>
-                                            <div class="hs_testi_quote_cont_wrapper">
-                                                <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="hs_testi_client_main_wrapper">
-                                        <div class="hs_testi_client_cont_sec">
-                                            <h2>Joan doe</h2>
-                                            <p>Designer</p>
-                                        </div>
-                                        <div class="hs_testi_client_cont_img_sec">
-                                            <img src="images/content/testi_client_img1.jpg" alt="testi_img" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="hs_testi_cont_main_wrapper hs_testi_cont_main_right_wrapper">
-                                        <div class="hs_testi_cont_inner_wrapper">
-                                            <div class="hs_testi_quote_wrapper">
-                                                <i class="fa fa-quote-left"></i>
-                                            </div>
-                                            <div class="hs_testi_quote_cont_wrapper">
-                                                <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="hs_testi_client_main_wrapper hs_testi_client_main_right_wrapper">
-                                        <div class="hs_testi_client_cont_img_sec">
-                                            <img src="images/content/testi_client_img2.jpg" alt="testi_img" />
-                                        </div>
-                                        <div class="hs_testi_client_cont_sec">
-                                            <h2>Joan doe</h2>
-                                            <p>Designer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  hidden-xs">
-                                    <div class="hs_testi_cont_main_wrapper">
-                                        <div class="hs_testi_cont_inner_wrapper">
-                                            <div class="hs_testi_quote_wrapper">
-                                                <i class="fa fa-quote-left"></i>
-                                            </div>
-                                            <div class="hs_testi_quote_cont_wrapper">
-                                                <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="hs_testi_client_main_wrapper">
-                                        <div class="hs_testi_client_cont_sec">
-                                            <h2>Joan doe</h2>
-                                            <p>Designer</p>
-                                        </div>
-                                        <div class="hs_testi_client_cont_img_sec">
-                                            <img src="images/content/testi_client_img1.jpg" alt="testi_img" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="hs_testi_cont_main_wrapper hs_testi_cont_main_right_wrapper">
-                                        <div class="hs_testi_cont_inner_wrapper">
-                                            <div class="hs_testi_quote_wrapper">
-                                                <i class="fa fa-quote-left"></i>
-                                            </div>
-                                            <div class="hs_testi_quote_cont_wrapper">
-                                                <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="hs_testi_client_main_wrapper hs_testi_client_main_right_wrapper">
-                                        <div class="hs_testi_client_cont_img_sec">
-                                            <img src="images/content/testi_client_img2.jpg" alt="testi_img" />
-                                        </div>
-                                        <div class="hs_testi_client_cont_sec">
-                                            <h2>Joan doe</h2>
-                                            <p>Designer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
