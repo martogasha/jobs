@@ -18,8 +18,8 @@ Purchase:
     <meta charset="utf-8" />
     <title>Jobs - Briden Jobs Alert</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta name="description" content="Horoscope" />
-    <meta name="keywords" content="Horoscope" />
+    <meta name="description" content="bridenjobs" />
+    <meta name="keywords" content="bridenjobs" />
     <meta name="author" content="" />
     <meta name="MobileOptimized" content="320" />
     <!--srart theme style -->
