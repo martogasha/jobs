@@ -47,7 +47,7 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="footer_bottom_cont_wrapper">
-                    <p>© Copyright 2023 by briden jobs. All right Reserved</p>
+                    <p>© Copyright 2023 by bridenjobs. All right Reserved</p>
                 </div>
             </div>
         </div>
