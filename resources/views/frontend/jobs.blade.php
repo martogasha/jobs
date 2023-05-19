@@ -151,7 +151,7 @@ Purchase:
                                     <div class="hs_blog_box1_bottom_cont_main_wrapper">
                                         <div class="hs_blog_box1_bottom_cont_left">
                                             <ul>
-                                                <li><a href="#">by - {{$job->user->first_name}}</a></li>
+                                                <li><a href="#">by - Admin</a></li>
                                                 <li><a href="#">0 Likes</a></li>
                                                 <li><a href="#">0 Comments</a></li>
                                                 <li><a href="#">{{$job->created_at->diffForHumans()}}</a></li>

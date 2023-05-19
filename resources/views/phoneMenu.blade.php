@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-xs-6 col-sm-6">
                 <div class="hs_logo">
-                    <a href="{{url('/')}}"><img src="images/header/1.jpg" class="img-responsive" alt="logo" title="Logo"/></a>
+                    <a href="{{url('/')}}"><img src="{{asset('images/header/1.jpg')}}" class="img-responsive" alt="logo" title="Logo"/></a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-6">
