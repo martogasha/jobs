@@ -426,7 +426,7 @@ Purchase:
                                                         <div class="hs_pr_tabs_cont1_wrapper">
                                                             <h2>How To Apply</h2>
                                                             <p>{{$job->how_to_apply}}</p>
-                                                            <p><a href="{{$job->link}}" target="_blank">{{$job->link}}</a></p>
+                                                            <p><a href="{{$job->link}}" target="_blank" style="color:blue;">{{$job->link}}</a></p>
                                                         </div>
                                                     </div>
 

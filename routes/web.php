@@ -42,7 +42,7 @@ Route::get('getBlog', [AdminController::class, 'getBlog']);
 
 //frontend
 Route::get('jobs', [FrontendController::class, 'jobs']);
-Route::get('jobDetail/{id}', [FrontendController::class, 'jobDetail']);
+Route::get('jobDetail/{id}/{category}', [FrontendController::class, 'jobDetail']);
 Route::get('cvs', [FrontendController::class, 'cvs']);
 Route::get('shop', [FrontendController::class, 'shop']);
 Route::get('shopDetail/{id}', [FrontendController::class, 'shopDetail']);

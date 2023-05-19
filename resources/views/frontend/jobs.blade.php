@@ -134,7 +134,7 @@ Purchase:
                                 <div class="hs_blog_box1_main_wrapper">
                                     <div class="hs_blog_box1_cont_main_wrapper">
                                         <div class="hs_blog_cont_heading_wrapper">
-                                            <a href="{{url('jobDetail',$job->id)}}"><h2>{{$job->job_title}}</h2></a>
+                                            <a href="{{url('jobDetail',['id'=>$job->id,'category'=>str_slug($job->job_title)])}}"><h2>{{$job->job_title}}</h2></a>
                                             <h4><span></span></h4>
                                             <p>{{$job->job_desc}}</p>
                                             <div class="comments">
