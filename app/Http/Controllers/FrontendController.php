@@ -22,7 +22,7 @@ class FrontendController extends Controller
         $job = Job::find($id);
         $bls = Blog::orderBy('id','DESC')->paginate(4);
         $shareComponent = \Share::page(
-            'https://www.codesolutionstuff.com/generate-rss-feed-in-laravel/',
+            'https://www.bridenjobs.co.ke/jobDetail/'.$job->id.'/'.$job->job_title.'/',
             'Your share text comes here',
         )
             ->facebook()
