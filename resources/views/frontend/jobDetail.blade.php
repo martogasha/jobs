@@ -441,26 +441,12 @@ Purchase:
                         </div>
 
                     </div>
+                    <br>
+                    <br>
+                    <br>
                     <div class="container mt-4">
                         {!! $shareComponent !!}
                     </div>
-                    <style>
-                        div#social-links {
-                            margin: 0 auto;
-                            max-width: 500px;
-                        }
-                        div#social-links ul li {
-                            display: inline-block;
-                        }
-                        div#social-links ul li a {
-                            padding: 20px;
-                            border: 1px solid #ccc;
-                            margin: 1px;
-                            font-size: 30px;
-                            color: #222;
-                            background-color: #ccc;
-                        }
-                    </style>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
@@ -511,6 +497,24 @@ Purchase:
         </div>
     </div>
 </div>
+<style>
+    div#social-links {
+        margin: 0 auto;
+        max-width: 500px;
+    }
+    div#social-links ul li {
+        display: inline-block;
+    }
+    div#social-links ul li a {
+        padding: 20px;
+        border: 1px solid #ccc;
+        margin: 1px;
+        font-size: 30px;
+        color: #222;
+        background-color: #ccc;
+    }
+</style>
+
 <!-- hs sidebar End -->
 <!-- hs online slider wrapper Start -->
 <!-- hs online slider wrapper End -->
