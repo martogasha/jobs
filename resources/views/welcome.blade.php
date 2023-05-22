@@ -678,7 +678,8 @@ Image credits: unsplash.com
 <script src="js/jquery.inview.min.js"></script>
 <script src="js/jquery.magnific-popup.js"></script>
 <script src="js/custom.js"></script>
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4317286144362168"
+        crossorigin="anonymous"></script>
 <!--main js file end-->
 </body>
 <script>
