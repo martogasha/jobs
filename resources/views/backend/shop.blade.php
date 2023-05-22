@@ -186,7 +186,7 @@ Purchase:
                                                         </div>
                                                         <div class="hs_shop_prodt_img_cont_wrapper">
                                                             <h2><a href="{{url('shopDetail',$product->id)}}">{{$product->product_title}}</a></h2>
-                                                            <h3>Ksh <b>{{$product->product_amount}}</b></h3>
+                                                            <h3>Ksh <b>{{number_format($product->product_amount)}}</b></h3>
                                                             <h4>by <span>{{$product->user->first_name}}</span></h4>
                                                         </div>
                                                     </div>

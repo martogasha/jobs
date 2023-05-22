@@ -157,15 +157,7 @@ Purchase:
                                                 <li><a href="#">{{$job->created_at->diffForHumans()}}</a></li>
                                             </ul>
                                         </div>
-                                        <div class="hs_blog_box1_bottom_cont_right">
-                                            <ul>
-                                                <li>Share :</li>
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            </ul>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>

@@ -21,12 +21,21 @@ class FrontendController extends Controller
     public function jobDetail($id){
         $job = Job::find($id);
         $bls = Blog::orderBy('id','DESC')->paginate(4);
-
+        $shareComponent = \Share::page(
+            'https://www.codesolutionstuff.com/generate-rss-feed-in-laravel/',
+            'Your share text comes here',
+        )
+            ->facebook()
+            ->twitter()
+            ->linkedin()
+            ->telegram()
+            ->whatsapp()
+            ->reddit();
         return view('frontend.jobDetail',[
             'job'=>$job,
             'bls'=>$bls
 
-        ]);
+        ],compact('shareComponent'));
     }
     public function cvs(){
         return view('frontend.cvs');

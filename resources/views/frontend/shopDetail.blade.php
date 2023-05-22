@@ -147,7 +147,7 @@ Purchase:
                     <div class="details col-md-6">
                         <h3 class="product-title">{{$product->product_title}}</h3>
                         <p class="product-description">{{$product->product_desc}}</p>
-                        <h4 class="price">Price: <span style="font-size: 30px">Ksh {{$product->product_amount}}</span></h4>
+                        <h4 class="price">Price: <span style="font-size: 30px">Ksh {{number_format($product->product_amount)}}</span></h4>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Send Message</label>
                             <input type="text" class="form-control" id="last_name" aria-describedby="emailHelp" placeholder="Send message to seller" required>
