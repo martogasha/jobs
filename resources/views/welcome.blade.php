@@ -37,6 +37,8 @@ Purchase:
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
     <!-- favicon links -->
     <link rel="shortcut icon" type="image/png" href="images/header/favicon.ico" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4317286144362168"
+            crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -679,8 +681,6 @@ Image credits: unsplash.com
 <script src="js/jquery.magnific-popup.js"></script>
 <script src="js/custom.js"></script>
 <!--main js file end-->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4635501453411395"
-        crossorigin="anonymous"></script>
 <!-- horizontal -->
 <ins class="adsbygoogle"
      style="display:block"
