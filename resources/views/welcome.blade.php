@@ -681,6 +681,18 @@ Image credits: unsplash.com
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4635501453411395"
         crossorigin="anonymous"></script>
 <!--main js file end-->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4635501453411395"
+        crossorigin="anonymous"></script>
+<!-- horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4635501453411395"
+     data-ad-slot="8689445904"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 </body>
 <script>
     window.dataLayer = window.dataLayer || [];
