@@ -23,7 +23,7 @@ class FrontendController extends Controller
         $bls = Blog::orderBy('id','DESC')->paginate(4);
         $shareComponent = \Share::page(
             'https://www.bridenjobs.co.ke/jobDetail/'.$job->id.'/'.$job->job_title.'/',
-            'Your share text comes here',
+            ''.$job->job_title.'',
         )
             ->facebook()
             ->twitter()

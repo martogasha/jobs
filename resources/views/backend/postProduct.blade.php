@@ -140,15 +140,15 @@ Purchase:
                             </div>
                             <div class="form-group">
                                 <label for="inputAddress">Product Title</label>
-                                <input type="text" class="form-control" name="product_title" placeholder="Product Title">
+                                <input type="text" class="form-control" name="product_title" placeholder="Product Title" required>
                             </div>
                             <div class="form-group">
                                 <label for="inputAddress2">Amount</label>
-                                <input type="text" class="form-control" name="product_amount" placeholder="Product Amount">
+                                <input type="number" class="form-control" name="product_amount" placeholder="Product Amount" required>
                             </div>
                             <div class="form-group">
                                 <label for="inputAddress2">Description</label>
-                                <input type="text" class="form-control" name="product_desc" placeholder="Product Description">
+                                <input type="text" class="form-control" name="product_desc" placeholder="Product Description" required>
                             </div>
                             <button type="submit" class="btn btn-primary">POST</button>
                         </form>
